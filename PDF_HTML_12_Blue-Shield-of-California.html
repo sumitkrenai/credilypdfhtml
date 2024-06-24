@@ -22,6 +22,13 @@
         src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/CenturyGothic.ttf")
           format("truetype");
       }
+      @font-face {
+                font-family: "Arial-bold";
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arialbld.ttf");
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arialbld.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
 
             * {
         margin: 0;
@@ -31,34 +38,60 @@
         width: 100%;
         border-spacing: 0;
       }
+     body{
+        font-size: 16px;
+        font-family: "FieldworkGeoLight";
+        color: black;
+        line-height:20px;
+        
+      }
+
+      h4{
+        font-size: 18px ;
+        font-family: "FieldworkGeoDemibold";
+        color: black;
+      }
+
+      h5{
+        font-size: 10px;
+        font-family: "FieldworkGeoLight";
+        color: black;
+        line-height:20px;
+      }
   </style>
 </head>
 <body>
-<div style="width: 90%; margin-left: 5%; margin-top: 5%;">
+<div style=" width: 90%; margin-left: 65px; margin-top: 5%;">
 
   <!-- heading table -->
-  <table style="border: 1px solid black;">
-    <tr> 
-      <th><img src="logo1.PNG" alt="" width="40% "></th>
-      <th><img src="logo2.PNG" alt="" width="40%"></th>
+  <table>
+    <colgroup>
+        <col style="width: 50%;">
+        <col style="width: 50%;">
+    </colgroup>
+    <tr>
+      <th style="text-align: left;"><img src="https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/logo1.PNG" alt="" width="190px"></th>
+        <th style="text-align: right;"> <img src="https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/logo2.PNG" alt="" width="170px" style="margin-left:-100px;"></th>
     </tr>
-  </table>
+   
+</table>
 
-  <div style="margin-top: 5%; font-family: FieldworkGeoDemibold ; width: 90%; font-size: 12px;
-  border: 1px solid black;">
-    <p>Provider Group/Facility Application Form (RA-02)</p>
+  <div style=" margin-top:50px; width: 90%;
+ ">
+    <p style="  font-size: 26px;  font-family:'FieldworkGeoDemibold'" ;>Provider Group/<span style="font-family: Arial-bold;">F</span>acility Application <span style="font-family:'Arial-bold';">F</span>orm <span style="font-family:FieldworkGeoDemibold ;">(RA- <span style="font-family: 'Arial-bold';">02</span>)</span> </p>
   </div>
 
 <!-- table content  -->
 
-<table style="border: 1px solid; margin-top: 5%;">
+<table style=" margin-top:-10px;">
   <colgroup>
-    <col style="width: 50%;">
+    <col style="width: 45%;">
     <col style="width: 50%;">
 </colgroup>
   <tr>
     <!-- column 1 -->
-    <th><p style="font-family:FieldworkGeoLight;font-size: 9px; text-align: left;">The data provided on this form or an additional form 
+    <th>
+      <p style=" text-align: left; margin-top: 20px;">The data provided on this form or an additional form 
       with equivalent data is used by Blue Shield of California 
       (Blue Shield) and/or Blue Shield of California Promise 
       Health Plan (Blue Shield Promise) to establish a record 
@@ -68,52 +101,46 @@
       Promise will confirm eligibility of the applicant for claims 
       submission, using the contact information provided. </p> 
 
-      <h4 style="font-family: FieldworkGeoDemibold; font-size: 9px; text-align: left; margin-top: 3%;">Instructions</h4>
+      <h4 style=" text-align: left; margin-top:20px;"><strong>Instructions</strong></h4>
 
-      <p style="font-family: FieldworkGeoLight; font-size: 9px; text-align: left; margin-top: 3%;">Identify the provider group or facility requiring a billing 
+      <p style="text-align: left; margin-top:5px;">Identify the provider group or facility requiring a billing 
         record and complete all fields with the group or facility
         information. Populate page three of this application with all 
         required data elements for professional practitioners at the 
         location. For additional practitioners, use page three as a 
         template. One application per service location is required.
         <br>
-        <br> 
         Attach all required documentation, as outlined below, and 
         return this form to Blue Shield and/or Blue Shield Promise 
         via email: <span style="color: blue;">@blueshieldca.com</span>. This form 
         may be completed electronically</p>
 
-        <h6 style="font-family: FieldworkGeoDemibold; margin-top: 5%; text-align: left; font-size: 9.5px;">Required Documentation</h6>
+        <h4 style="margin-top: 20px; text-align: left; font-weight: bolder; "> <strong>Required Documentation</strong></h4>
        
-        <p style="font-family:FieldworkGeoLight; font-size: 9px; text-align: left; margin-top: 5%;">This request will not be initiated until all the required 
+        <p style=" text-align: left; margin-top:5px;">This request will not be initiated until all the required 
           documentation indicated below is received by Blue Shield 
           and/or Blue Shield Promise. Failure to provide the 
           required documentation will result in no action being 
           taken to process the application.</p>
 
           <ul>
-            <li style="font-family:FieldworkGeoLight; font-size: 9px; margin-top: 5%; text-align: left; margin-left: 5%;">Include the licensure/certification or other 
+            <li style=" margin-top:10px; text-align: left; margin-left:10px;">Include the licensure/certification or other 
               supporting document(s) for the type of service and 
               name provided:
-                <ul style="margin-left: 7%; margin-top: 2%;margin-top: 4%;">
+                <ul style="margin-left: 15px; line-height:25px; margin-top: 10px;">
                   <li>You must indicate the issue date</li>
                   <li>You must indicate the issuing agency or 
                     governing body. </li>
                     <li>Facility/license/certification may be required 
                       for each service location.</li>
                 </ul></li>
-                <li style="font-family:FieldworkGeoLight; font-size: 9px; margin-top: 5%; text-align: left; margin-left: 5%;">If you intend to submit claims using a legal 
+                <li style=" margin-top: 10px; margin-left: 10px; text-align: left">If you intend to submit claims using a legal 
                   entity name filed with the California Secretary 
                   of State, submit a copy of the approved filing.</li>
 
-                  <li style="font-family:FieldworkGeoLight; font-size: 9px; margin-top: 5%; text-align: left; margin-left: 5%;">If you intend to submit claims using an employer 
-                    identification number (EIN), please submit a signed 
-                    W-9 or Department of Treasury/Internal Revenue 
-                    Service (IRS) tax document.</li>
-
-                    <li style="font-family:FieldworkGeoLight; font-size: 9px; margin-top: 5%; text-align: left; margin-left: 5%;">Provide proof of legal authorization to use the 
+                    <li style="margin-top: 10px; margin-left: 10px; text-align: left;">Provide proof of legal authorization to use the 
                       listed dba: 
-                    <ul style="margin-left: 7%; margin-top: 2%; margin-top: 4%;">
+                    <ul style="margin-left: 15px; line-height:25px; margin-top: 10px;">
                       <li>If a dba is required to be registered with 
                         the State licensing Board, include a 
                         photocopy of the Fictitious Name Permit 
@@ -123,10 +150,10 @@
     </th>
 
       <!-- column 2 -->
-    <th> 
-       <ul>
+    <th style="margin-left: 20px;"> 
+       <ul style="margin-left: 10px;">
         <ul>
-          <li style="font-family:FieldworkGeoLight; font-size: 9px;  text-align: left; margin-left: 16%;">All other providers: If you are incorporated 
+          <li style="margin-left: 95px; line-height:25px; margin-top: 60px; text-align: left; line-height: 19px">All other providers: If you are incorporated 
             and using an incorporated name, only a 
             photocopy of your Articles of Incorporation 
             is required. If you are not incorporated and 
@@ -134,8 +161,8 @@
             Statement issued by the county is required.</li>
         </ul>
        </ul>
-<h6 style="font-family: FieldworkGeoDemibold; font-size: 9px; text-align: left; margin: 3% 7%;">Additional Information</h6>
-<p style="font-family: FieldworkGeoLight; font-size: 9px; text-align: left; margin-top: 3%; margin-left: 7%;" >This form is only used to create a new provider group or 
+<h4 style=" text-align: left; margin-top: 40px; margin-left: 60px">Additional Information</h4>
+<p style=" text-align: left; margin-top:5px; margin-left:60px;" >This form is only used to create a new provider group or 
   facility record. To update an existing group or facility 
   record, please complete the Provider Group/Facility 
   Information Change Form (FormICF-02). 
@@ -143,24 +170,210 @@
   Shield and/or Blue Shield Promise provider network.
   For information about joining either network, please 
   contact our Provider Information and Enrollment 
-  Department via email at 
-  BSCProviderInfo@blueshieldca.com</p>
+  Department via email at <span style="color: blue;"> BSCProviderInfo@blueshieldca.com</span>
+ </p>
 
-<p style="font-family: FieldworkGeoLight; font-size: 9px; text-align: left; margin-left: 7%; margin-top: 3%;">In accordance with regulatory requirements, Blue Shield 
+<p style="text-align: left; margin-top:13px; margin-left:60px">In accordance with regulatory requirements, Blue Shield 
   reports and publishes a maximum number of in-person 
   service locations for practitioners: </p>
 
-  <h6 style="font-family: FieldworkGeoDemibold; font-size: 9px; text-align: left; margin: 5% 7%;">Primary Care Physicians (PCPs)</h6>
+  <h4 style="text-align: left;margin-top: 20px; margin-left: 60px">Primary Care Physicians (PCPs)</h4>
 
+  <p style="text-align: left; margin-top:5px; margin-left:60px">One practitioner may not be listed as a primary care 
+    physician (PCP) in more than seven (7) in-person service 
+    location addresses across the entire network. This 
+    requirement applies even if the practitioner is listed as a 
+    PCP on rosters for multiple, separately contracted 
+    IPA/medical groups. The aggregated total for providing in-person services <span style="text-decoration: underline">as a PCP</span> must not exceed seven (7) service 
+    locations in Blue Shield’s entire provider directory.</p>
+
+    <h4 style="text-align: left; margin-top: 20px; margin-left: 60px">Physician Specialists:</h4>
+
+    <p style="text-align: left; margin-top:5px; margin-left:60px;">One physician specialist may not be listed as a specialist in 
+      more than eleven (11) in-person service location addresses 
+      across the entire network. This requirement applies even if 
+      the practitioner is listed as a specialist on rosters for 
+      multiple, separately contracted IPA/medical groups. The 
+      aggregated total for providing in-person services as a 
+      specialist must not exceed eleven (11) service locations in 
+      Blue Shield’s entire provider directory.  <br>
+      The above limitation requirements only apply to in-person service locations for each PCP or specialist 
+      practitioner. No limits apply to locations where ONLY 
+      telehealth or virtual care services ONLY are provided.
+      If the practitioner also provides services to Blue Shield 
+      members in person at the location, however, it will be 
+      counted as an in-person services location.
+      </p>
   
     </th>
 </tr>
 
 </table>
 
+<table>
+  <colgroup>
+    <col style="width: 80%;">
+    <col style="width: 20%;">
+</colgroup>
+<tr>
+  <th>
+    <h5 style=" font-family: 'CenturyGothic';  color: blue; font-size: 25px;  text-align: left; margin-top:30px ">blueshieldca.com</h5>
+    <p style="font-size:12px; font-family: FieldworkGeoLight; text-align: left; margin-top:10px">Blue Shield of California and Blue Shield of California Promise Health Plan are independent licensees of the Blue Shield Association</p>
+  </th>
+  <th style="text-align: right;">
+    <h5 style="margin-top: 30px;">Page 1/3</h5>
+    <h5>RA-02 (7/23) </h5>
+    <h5>Prov_23_026</h5>
+  </th>
+</tr>
+
+</table>
+
 </div>
 
-<div style="border: 1px solid black;"></div>
-  
+
+
+<div style="page-break-after: always"></div>
+
+
+
+
+<div style="width: 90% ; margin-left: 65px; margin-top: 60px;">
+<p style="margin-top: 10px; font-family:'FieldworkGeoDemibold'; font-size: 26px;">Provider Group/Facility Application (RA-02), cont’d.</p>
+
+
+<p style="margin-top: 10px; font-family:'FieldworkGeo'; font-size: 16px;">By submitting this form applicant certifies on behalf of this provider record that all information included on this form is true, accurate
+  and complete. Any false statements, the concealment of material fact, or the use of false documents may lead to prosecution 
+  under applicable federal or state laws. Applicant certifies under penalty of perjury that the foregoing is true and correct. </p>
+
+  <p style="margin-top: 10px; font-family:'FieldworkGeoDemibold'; font-size: 16px;">The provider group/facility email entered into this form will be tied to your provider portal account notifications and used for 
+    account-specific outreach. </p>
+
+
+    <table>
+      <tr>
+          <td>
+              <!-- main column -->
+              <table>
+                  <tr>
+                      <!-- column partition -->
+                      <td style="width: 50%;">
+                          <!-- content Table> -->
+                          <table>
+                              <tr>
+                                  <td>Provider name/ <br>
+                                    doing business as (dba):</td>
+                                  <td><p></p></td>
+                              </tr>
+                          </table>
+                          <!-- content Table> -->
+                      </td>
+                      <!-- column partition -->
+                      <td style="width: 50%;">
+                        <table>
+                          <tr>
+                              <td>Legal entity <br>
+                                name:</td>
+                              <td><p></p></td>
+                          </tr>
+                      </table>
+                      </td>
+                  </tr>
+              </table>
+              <!-- main column -->
+          </td>
+      </tr>
+
+
+      <tr>
+        <td>
+            <!-- main column -->
+            <table style="width: 1px solid black;">
+                <tr>
+                    <!-- column partition -->
+                    <td style="width: 50%;">
+                        <!-- content Table> -->
+                        <table style="width: 1px solid black;">
+                            <tr>
+                                <td>EIN/TIN (attach pre-printed <br>
+                                  tax document/W-9):</td>
+                                <td><p></p></td>
+                            </tr>
+                        </table>
+                        <!-- content Table> -->
+                    </td>
+                    <!-- column partition -->
+                    <td style="width: 50%;">
+                      <table>
+                        <tr>
+                            <td>National provider <br>
+                              identifier (NPI):</td>
+                            <td><p></p></td>
+                        </tr>
+                    </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- main column -->
+        </td>
+    </tr>
+
+
+
+
+    <tr>
+      <td>
+          <!-- main column -->
+          <table style="width: 1px solid black;">
+              <tr>
+                  <!-- column partition -->
+                  <td style="width: 33%;">
+                      <!-- content Table> -->
+                      <table style="width: 1px solid black;">
+                          <tr>
+                              <td>EIN/TIN (attach pre-printed <br>
+                                tax document/W-9):</td>
+                              <td><p></p></td>
+                          </tr>
+                      </table>
+                      <!-- content Table> -->
+                  </td>
+                  <!-- column partition -->
+                  <td style="width: 33%;">
+                    <table>
+                      <tr>
+                          <td>National provider <br>
+                            identifier (NPI):</td>
+                          <td><p></p></td>
+                      </tr>
+                  </table>
+                  </td>
+
+                  <td style="width: 33%;">
+                    <!-- content Table> -->
+                    <table style="width: 1px solid black;">
+                        <tr>
+                            <td>EIN/TIN (attach pre-printed <br>
+                              tax document/W-9):</td>
+                            <td><p></p></td>
+                        </tr>
+                    </table>
+                    <!-- content Table> -->
+                </td>
+                
+              </tr>
+          </table>
+          <!-- main column -->
+      </td>
+  </tr>
+
+
+
+  </table>
+</div>
+
+
+
+
 </body>
 </html>
