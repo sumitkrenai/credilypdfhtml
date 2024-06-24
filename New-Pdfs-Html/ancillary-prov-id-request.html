@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancillary-prov-id-request</title>
+    <style>
+        @font-face {
+            font-family: "Times-new-roman";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/times-new-roman.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/times-new-roman.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Times-new-roman-bold";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/times-new-roman-bold.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/times-new-roman-bold.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="width: 90%;margin:0 auto 20px;font-family:Times-new-roman;">
+        <table style="width: 100%;border-spacing: 0;border: 0px solid #333;">
+            <tr>
+                <td style="width: 33%;">
+                    <p style="color: blue;font-family: Times-new-roman-bold;">
+                        <span>Date:</span>
+                        <span style="text-align:center;border-bottom: 1px solid blue;min-width: 100px;display: inline-block;">${Date!'N/A'}</span>
+                    </p>
+                </td>
+                <td style="width: 33%;text-align: center;">
+                    <p style="color: blue;font-family: Times-new-roman-bold;">
+                        <span>Attn:</span>
+                        <span style="text-align:center;border-bottom: 1px solid blue;min-width: 100px;display: inline-block;">Facility Provider Services</span>
+                    </p>
+                </td>
+                <td style="width: 33%;text-align: center;">
+                    <p style="color: blue;font-family: Times-new-roman-bold;">
+                        <span>Fax#:</span>
+                        <span style="text-align:center;border-bottom: 1px solid blue;min-width: 100px;display: inline-block;">
+                            972-766-7315
+                        </span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%;" colspan="3">
+                    <div style="text-align:center;color:#111;">
+                        <h2 style="margin-bottom: 5px;font-family: Times-new-roman-bold;font-size: 20px;">ANCILLARY PROVIDER ID REQUEST FORM</h2>
+                        <p style="margin: 0;font-size: 17px;">Blue Cross and Blue Shield of Texas (BCBSTX) </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table style="margin-top:30px;width: 100%;border-spacing: 0;border: 0px solid #333;font-size: 17px;">
+            <tr>
+                <td style="width: 60%;vertical-align: top;">
+                    <p style="color: #111;font-family:Times-new-roman-bold;line-height: 24px;">Facility Provider Services<br>Blue Cross and Blue Shield of Texas
+                    <br>P O Box 650267<br>Dallas, Texas 75265-0267</p>
+                </td>
+                <td style="width: 40%;vertical-align: top;">
+                    <p style="color: #111;font-family:Times-new-roman-bold;margin-bottom: 0;">
+                    Email: <a href="mailto:TXFPS@bcbstx.com">TXFPS@bcbstx.com</a></p>
+                    <p style="color: #111;font-family:Times-new-roman-bold;margin: 6px 0;">Fax: 972-766-7315</p>
+                    <p style="color: #111;font-family:Times-new-roman-bold;margin-top: 0;">Attn: Facility Provider Services</p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%;border-spacing: 0;border: 1px solid #333;border-bottom: 0px solid #111;">
+            <tr>
+                <td style="width: 50%;padding:3px 10px 0px;border-right: 1px solid #111;">
+                    <p style="color: #111;font-family:Times-new-roman-bold;margin: 0;">Provider of Service Information:</p>
+                </td>
+                <td style="width: 50%;padding: 3px 10px 0px;">
+                    <p style="color: #111;font-family:Times-new-roman-bold;margin: 0;">Address: <span style="color: blue;">Physical</span>/Place of Practice:</p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%;border-spacing: 0;border: 1px solid #333;border-bottom: 0px solid #111;">
+            <tr>
+                <td style="width: 50%;padding:0px 10px 5px;border-right: 1px solid #111;">
+                    <p style="color: #111;margin: 0 0 10px;"><span style="color: blue;"><span style="font-family:Times-new-roman-bold">Corporate</span> Name</span> (line 1 of W-9) </p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">${CorporateName!'N/A'}</p>
+                </td>
+                <td style="width: 30%;padding: 0px 10px 5px;border-right: 1px solid #111;">
+                    <p style="color: #111;margin: 0 0 10px;">Address</p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">${PhysicalPlaceofPracticeAddress!'N/A'}</p>
+                </td>
+                <td style="width: 20%;padding: 0px 10px 5px;">
+                    <p style="color: #111;margin: 0 0 10px;">Suit</p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">XXXXXXXXX</p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%;border-spacing: 0;border: 1px solid #333;border-bottom: 0px solid #111;">
+            <tr>
+                <td style="width: 50%;padding:0px 10px 5px;border-right: 1px solid #111;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;"><span style="color: blue;"><span style="font-family:Times-new-roman-bold">DBA</span> Name</span> (line 2 of W-9) </p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">XXXXXXXXX</p>
+                </td>
+                <td style="width: 10%;padding:0px 10px 5px;border-right: 1px solid #111;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;">City</p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">${PhysicalPlaceofPracticeCity!'N/A'}</p>
+                </td>
+                <td style="width: 10%;padding:0px 10px 5px;border-right: 1px solid #111;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;">State</p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">${PhysicalPlaceofPracticeState!'N/A'}</p>
+                </td>
+                <td style="width: 10%;padding:0px 10px 5px;border-right: 1px solid #111;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;">Zip</p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">${PhysicalPlaceofPracticeZip!'N/A'}</p>
+                </td>
+                <td style="width: 20%;padding:0px 10px 5px;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;">Country</p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">${PhysicalPlaceofPracticeCountry!'N/A'}</p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%;border-spacing: 0;border: 1px solid #333;border-bottom: 0px solid #111;">
+            <tr>
+                <td style="width: 50%;padding:0px 10px 5px;border-right: 1px solid #111;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;">Type of Facility, Product or Services </p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">${TypeofFacilityProductOrServices!'N/A'}</p>
+                </td>
+                <td style="width: 50%;padding: 3px 10px 0px;border-right: 0px solid #111;vertical-align: top;">
+                    <div style="display: flex;">
+                        <p style="color: #111;margin: 0 0 15px;">Phone Number ( ) - </p>
+                        <p style="color: #111;margin: 0;word-break:break-all;">${PhysicalPlaceofPracticePhoneNumber!'N/A'}</p>
+                    </div>
+                    <div style="display: flex;">
+                        <p style="color: #111;margin: 0 0 10px;">Fax Number ( ) - </p>
+                        <p style="color: #111;margin: 0;word-break:break-all;">${PhysicalPlaceofPracticeFaxNumber!'N/A'}</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%;border-spacing: 0;border: 1px solid #333;border-bottom: 0px solid #111;">
+            <tr>
+                <td style="width: 20%;padding:3px 10px 0px;border-right: 1px solid #111;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;">Medicare #  </p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">XXXXXXXXX</p>
+                </td>
+                <td style="width: 30%;padding:3px 10px 0px;border-right: 1px solid #111;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;">NPI</p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">${NPI!'N/A'}</p>
+                </td>
+                <td style="width: 50%;padding: 3px 10px 0px;border-right: 0px solid #111;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;">Email Address</p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">${PayeeAddressMailCheckToEmailAddress!'N/A'}</p>
+                </td>
+            </tr>
+        </table>
+        <table style="margin-top:0px;width: 100%;border-spacing: 0;border: 1px solid #333;border-bottom: 0px solid #111;">
+            <tr>
+                <td style="width: 50%;padding:3px 10px 0px;border-right: 1px solid #111;">
+                    <p style="color: #111;font-family:Times-new-roman-bold;margin: 0;">Tax I.D Information:</p>
+                </td>
+                <td style="width: 50%;padding: 3px 10px 0px;">
+                    <p style="color: #111;font-family:Times-new-roman-bold;margin: 0;">Address: <span style="color: blue;">Payee</span>Address/Mail Check To:</p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%;border-spacing: 0;border: 1px solid #333;border-bottom: 0px solid #111;">
+            <tr>
+                <td style="width: 50%;padding:3px 10px 0px;border-right: 1px solid #111;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;">Federal Tax Id Number</p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">${FederalTaxIdNumber!'N/A'}</p>
+                </td>
+                <td style="width: 37%;padding:3px 10px 0px;border-right: 1px solid #111;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;">Address</p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">${PayeeAddressMailCheckToAddress!'N/A'}</p>
+                </td>
+                <td style="width: 14%;padding: 3px 10px 0px;border-right: 0px solid #111;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;">Suite</p>
+                    <p style="color: #111;margin: 0;word-break:break-all;">XXXXXXXXX</p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%;border-spacing: 0;border: 1px solid #333;border-bottom: 1px solid #111;">
+            <tr>
+                <td style="width: 50%;padding:10px;border-right: 1px solid #111;vertical-align: top;">
+                    <p style="color: #111;margin: 0 0 10px;font-family: Times-new-roman-bold;">Complete only if adding an Affiliate location to a Parent Hospital.
+                        Check one of the following:</p>
+                    <p style="color: #111;margin: 0 0 10px;word-break:break-all;line-height: 25px;">
+                        <input type="checkbox" style="accent-color: #235dc9;width: 1rem;height: 1rem;position: relative;top: 2px;"> Provider has been deemed “Provider Based Status” meaning it is
+                        operationally integrated with a main hospital and operates under the same
+                        name, ownership and administrative and financial control of a main
+                        hospital including license and NPI. </p>
+
+                        <p style="color: #111;margin: 0 0 0px;word-break:break-all;line-height: 25px;">
+                            <input type="checkbox" style="accent-color: #235dc9;width: 1rem;height: 1rem;position: relative;top: 2px;"> Provider has been deemed “Provider Based Status” meaning it is
+                            operationally integrated with a main hospital and operates under the same
+                            name, ownership and administrative and financial control of a main
+                            hospital including license and NPI. </p>
+                </td>
+                <td style="width: 50%;padding:0px;border-right: 0px solid #111;vertical-align: top;">
+                    <table style="width: 100%;border-spacing: 0;">
+                        <tr>
+                            <td style="width: 25%;padding: 5px;border-right: 1px solid #111;">
+                                <p style="color: #111;margin: 0 0 10px;">City</p>
+                                <p style="color: #111;margin: 0;word-break:break-all;">${PayeeAddressMailCheckToCity!'N/A'}</p>
+                            </td>
+                            <td style="width: 25%;padding: 5px;border-right: 1px solid #111;">
+                                <p style="color: #111;margin: 0 0 10px;">State</p>
+                                <p style="color: #111;margin: 0;word-break:break-all;">${PhysicalPlaceofPracticeState!'N/A'}</p>
+                            </td>
+                            <td style="width: 25%;padding: 5px;border-right: 1px solid #111;">
+                                <p style="color: #111;margin: 0 0 10px;">Zip</p>
+                                <p style="color: #111;margin: 0;word-break:break-all;">${PayeeAddressMailCheckToZip!'N/A'}</p>
+                            </td>
+                            <td style="width: 25%;padding: 5px;">
+                                <p style="color: #111;margin: 0 0 10px;">Country</p>
+                                <p style="color: #111;margin: 0;word-break:break-all;">${PayeeAddressMailCheckToCounty!'N/A'}</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100%;padding: 3px 10px 0px;border-top:1px solid #111;border-right: 0px solid #111;" colspan="4">
+
+                                <div style="display: flex;">
+                                    <p style="color: #111;margin: 0 0 20px;">Phone Number ( ) - </p>
+                                    <p style="color: #111;margin: 0;word-break:break-all;">${PayeeAddressMailCheckToPhoneNumber!'N/A'}</p>
+                                </div>
+                                <div style="display: flex;">
+                                    <p style="color: #111;margin: 0 0 0px;">Fax Number ( ) - </p>
+                                    <p style="color: #111;margin: 0;word-break:break-all;">XXXXXXXXX</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100%;padding: 5px;border-top:1px solid #111;border-right: 0px solid #111;" colspan="4">
+                                <p style="color: #111;margin: 0 0 10px;">Email Address</p>
+                                <p style="color: #111;margin: 0;word-break:break-all;">${PhysicalPlaceofPracticeEmailAddress!'N/A'}</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <p style="text-align: center;">To the best of my knowledge, the information supplied on this document is accurate and complete, and is hereby released to Blue
+            Cross and Blue Shield of Texas for the purpose of establishing a BCBSTX provider ID for claims processing.</p>
+            <p style="text-align: center;font-family: Times-new-roman-bold;"><b>Signature of Applicant or Authorized Representative</b>${SignatureofApplicantorAuthorizedRepresentative!'N/A'}</p>
+
+
+        <p>
+            X<span style="display: inline-block;width: 98%;border-bottom: 1px solid #111;min-height: 40px;"></span>
+            <span style="display: block;text-align: center;"><b>Signature</b></span>
+        </p>
+        <p style="margin-bottom: 0;display: flex;">
+            <span style="display: inline-block;width: 50%;border-bottom: 1px solid #111;text-align:center;"></span>
+            <span style="display: inline-block;width: 49%;border-bottom: 1px solid #111;text-align:center;">${Date!'N/A'}</span>
+        </p>
+        <table style="width: 100%;border-spacing: 0;">
+            <tr>
+                <td style="width: 50%;">
+                <p style="text-align: center;margin: 0;"><b>Title</b></p>
+                </td>
+                <td>
+                
+                    <p style="text-align: center;margin: 0;"><span style="margin-right: 20px;"><b>Date</span> MM / DD / YY</b></p>
+                </td>
+            </tr>
+        </table>
+
+        <h3 style="font-family: Times-new-roman-bold;font-size:16px;"><u>ATTACH A COPY OF:</u></h3>
+        <p>
+            <span style="margin-right: 20px;"><input type="checkbox" style="accent-color: #235dc9;width: 1rem;height: 1rem;position: relative;top: 2px;"></span>
+            <span style="font-family: Times-new-roman-bold;"><b>Facility license issued by your State or the license for your Product or Services.</b></span>
+        </p>
+        <p>
+            <span style="margin-right: 20px;"><input type="checkbox" style="accent-color: #235dc9;width: 1rem;height: 1rem;position: relative;top: 2px;"></span>
+            <span style="font-family: Times-new-roman-bold;"><b>W-9 form signed and dated.</b></span>
+        </p>
+        <p>
+            <span style="margin-right: 20px;"><input type="checkbox" style="accent-color: #235dc9;width: 1rem;height: 1rem;position: relative;top: 2px;"></span>
+            <span style="font-family: Times-new-roman-bold;"><b>NPI Confirmation.</b></span>
+        </p>
+
+
+        <p style="color: blue;line-height: 25px; margin-top: 40px;font-family: Times-new-roman-bold;">
+            <b>This is a form to establish an Out-of-Network provider ID for Blue Cross and Blue Shield of Texas. This form does not indicate
+                participation in any Networks. After a Provider ID is established you will receive a confirmation letter. Thank you.</b>
+        </p>
+    </div>
+    
+</body>
+</html>

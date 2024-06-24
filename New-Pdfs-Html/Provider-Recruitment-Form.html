@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Provider-Recruitment-Form</title>
+    <style>
+        /* https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arial.ttf */
+        @font-face {
+            font-family: "HelveticaNeueCyr-Light";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Light.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Light.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "HelveticaNeueCyr-Medium";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Medium.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Medium.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "HelveticaNeueCyr-Heavy";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Heavy.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Heavy.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "HelveticaNeueCyr-Bold";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Bold.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Bold.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: "HelveticaNeueBoldCondensed";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueBoldCondensed.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueBoldCondensed.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "HelveticaNeueCyr-HeavyItalic";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-HeavyItalic.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-HeavyItalic.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "HelveticaNeueCyr-LightItalic";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-LightItalic.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-LightItalic.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+                font-family: "HelveticaNeueLTPro-Cn";
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueLTPro-Cn.otf");
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueLTPro-Cn.otf") format("embedded-opentype"), 
+                url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueLTPro-Cn.otf") format("otf"), 
+                url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueLTPro-Cn.otf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+        }
+    </style>
+  </head>
+  <body>
+
+    <div style="margin: 0 auto;width: 90%; font-family:'HelveticaNeueLTPro-Cn';">
+        <table style="border-spacing: 0;width: 100%;">
+            <tr>
+                <td>
+                    <div style="width: 100%; text-align: center;">
+                        <img src="https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/199seiu.png" alt="">
+                    </div>
+                    <div style="text-align: center;">
+                        <p style="margin: 10px 0 0px;font-size: 28px;font-family: 'HelveticaNeueCyr-Bold';">PROVIDER RECRUITMENT FORM (REQUEST TO PARTICIPATE)</p>
+                        <p style="margin: 2px 0 0;font-size: 18px;font-family: 'HelveticaNeueLTPro-Cn';">Please print clearly in blue or black ink, or complete online</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table style="border-spacing: 0;width: 100%;">
+            <tr>
+                <td style="width: 25%; vertical-align: top;">
+                    <p style="font-family: HelveticaNeueBoldCondensed; font-size: 20px; margin-bottom: 0;">PROVIDER INFORMATION</p>
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 32px;">Please complete this section and MAIL to:</p>
+                    <!-- <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 0; text-align: right; padding-right: 7px;">or FAX to:</p> -->
+                    <!-- <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 0; text-align: right; padding-right: 6px;">or EMAIL to:</p> -->
+                </td>
+                <td style="width: 75%; padding-left: 15px; vertical-align: top;">
+                    <div style="padding-top: 45px;">
+                        <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 0;">Provider Relations Department, Contracting and Network Management 498 Seventh Avenue, 7th Floor, New York, NY 10018-0009</p>
+                        <!-- <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 0;">(646) 473-7213</p> -->
+                        <!-- <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 0;">Providers@1199Funds.org</p> -->
+                        <!-- <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 0;">(Please allow 45 days from receipt for processing.)</p> -->
+                    </div>
+                </td>
+            </tr>    
+            <tr>
+                <td style="width: 25%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 0; text-align: right; padding-right: 7px;">or FAX to:</p>
+                </td>
+                <td style="width: 75%; padding-left: 15px; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 0;">(646) 473-7213</p>
+                </td>
+            </tr>        
+            <tr>
+                <td style="width: 25%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 0; text-align: right; padding-right: 6px;">or EMAIL to:</p>
+                </td>
+                <td style="width: 75%; padding-left: 15px; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 0;">(Please allow 45 days from receipt for processing.)</p>
+                </td>
+            </tr>        
+        </table>
+        <table style="border-spacing: 0;width: 100%;margin-top: 15px;">
+            <tr>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 32px;"><input type="checkbox" style="accent-color: rgb(45, 122, 255);width: 1rem;height: 1rem;">Please send me information on becoming an 1199SEIU Participating Provider</p>
+                </td>
+                <td style="width: 50%; vertical-align: top;">
+
+                    <table style="width: 100%; border-spacing: 0px;">
+                        <tr>
+                            <td style="width: 50%;vertical-align: top;">
+                                <p style="border-bottom: 1px solid #111;min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;"></p>
+                                <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 0 0 0;font-size: 16px;letter-spacing: 0.5px;">DATE (MM/DD/YYYY)</p>
+                            </td>
+                            <td style="width: 50%;vertical-align: middle;">
+                                <p style="margin: 0 0px 0 40px;font-size: 16px;font-family: 'HelveticaNeueCyr-LightItalic';">*Required field</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>            
+        </table>
+
+        <table style="border-spacing: 0;width: 100%;"> 
+            <tr>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+            </tr>              
+            <tr>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">PROVIDER’S LEGAL NAME*</p>
+                </td>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">PROVIDER'S DATE OF BIRTH (FOR SECONDARY VALIDATION) (MM/DD/YYYY)*</p>
+                </td>
+            </tr>     
+            <tr>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+            </tr>              
+            <tr>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">GROUP/PRACTICE NAME</p>
+                </td>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">TAX ID #*</p>
+                </td>
+            </tr>            
+        </table>
+        <table style="border-spacing: 0;width: 100%;"> 
+            <tr>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <table style="border-radius: 0;width: 100%;">
+                        <tr>
+                            <td style="width: 60%; vertical-align: bottom;">
+                                <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                            </td>
+                            <td style="width: 20%; vertical-align: bottom;">
+                                <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                            </td>
+                            <td style="width: 20%; vertical-align: bottom;">
+                                <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>              
+            <tr>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">
+                        OFFICE ADDRESS*
+                    </p>
+                </td>
+                <td style="width: 50%; vertical-align: top;">
+                    <table style="border-radius: 0;width: 100%;">
+                        <tr>
+                            <td style="width: 60%; vertical-align: bottom;">
+                                <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">CITY*</p>
+                            </td>
+                            <td style="width: 20%; vertical-align: bottom;">
+                                <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">STATE*</p>
+                            </td>
+                            <td style="width: 20%; vertical-align: bottom;">
+                                <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">ZIP CODE*</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>            
+        </table>
+        <table style="border-spacing: 0;width: 100%;">
+            <tr>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+            </tr>              
+            <tr>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">OFFICE PHONE*</p>
+                </td>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">OFFICE FAX</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+            </tr>              
+            <tr>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">OFFICE CONTACT*</p>
+                </td>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">PROVIDER'S EMAIL ADDRESS*</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+            </tr>              
+            <tr>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">CREDENTIALING CONTACT*</p>
+                </td>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">CREDENTIALING CONTACT'S PHONE</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%; vertical-align: bottom;border-bottom: 1px solid #111;" colspan="2"> 
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+            </tr>              
+            <tr>
+                <td style="width: 50%; vertical-align: top;" colspan="2">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">CREDENTIALING CONTACT'S EMAIL ADDRESS*</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+            </tr>              
+            <tr>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">PRIMARY SPECIALTY*</p>
+                </td>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">SECONDARY SPECIALTY</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+            </tr>              
+            <tr>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">BOARD STATUS</p>
+                </td>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">INDIVIDUAL NATIONAL PROVIDER IDENTIFIER (NPI)—MUST BE 10 DIGITS*</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+                <td style="width: 50%; vertical-align: bottom;border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 5px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+            </tr>              
+            <tr>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">HOSPITAL AFFILIATION</p>
+                </td>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">CAQH ID #*</p>
+                </td>
+            </tr>
+        </table>
+        <table style="border-spacing: 0; width: 100%; margin-top: 15px;">
+            <tbody>
+                <tr>
+                    <td style="width: 3%; vertical-align: top;">
+                        <input type="checkbox" style="accent-color: rgb(45, 122, 255);width: 1rem;height: 1rem;" /> 
+                    </td>
+                    <td style="width: 97%; vertical-align: top;">
+                        <p style="font-family: 'HelveticaNeueLTPro-Cn';font-size: 16px;margin: 2px 0 15px;line-height: 24px;">
+                            I attest that my CAQH attestation is within 120 and not older than 180 days. My Malpractice Insurance Certificate and other credentialing items are current
+                            in CAQH. I hereby authorize the 1199SEIU Funds to access my CAQH profile.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 100%; vertical-align: top;" colspan="2">
+                        <p style="font-family: 'HelveticaNeueLTPro-Cn';font-size: 16px;margin: 2px 0 20px;line-height: 24px;">
+                            If you are a nurse practitioner, you must have a New York State nurse practitioner collaboration agreement/arrangement/protocol.
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="border-spacing: 0;width: 100%;">
+            <tr>
+                <td style="width: 1%; vertical-align: bottom; border-bottom: 1px solid #fff;">
+                    <p style="margin: 0 0 0px;padding: 5px 0px 0 0px;word-break: break-all;font-size: 22px;font-family: 'HelveticaNeueBoldCondensed';position: relative;top: 6px;">X</p>
+                </td>
+                <td style="width: 49%; vertical-align: bottom; border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 0px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+                <td style="width: 50%; vertical-align: bottom; border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px;margin: 0 0 0px;padding: 5px 6px 0;width: 100%;word-break: break-all;font-size: 16px;line-height: 26px;">-</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 50%; vertical-align: top;" colspan="2">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn'; margin: 6px 0 0; font-size: 16px; letter-spacing: 0.5px;">PROVIDER'S SIGNATURE</p>
+                </td>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn'; margin: 6px 0 0; font-size: 16px; letter-spacing: 0.5px;">DATE (MM/DD/YYYY)</p>
+                </td>
+            </tr>                        
+        </table>
+        <table style="border-spacing: 0;width: 100%;">
+            <tr>
+                <td style="width:100%;vertical-align: top;">
+                    <p style="font-family: HelveticaNeueBoldCondensed; font-size: 20px; margin-bottom: 0;">MEMBER INFORMATION</p>
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn'; font-size: 18px; margin: 10px 0 0px;">Please complete this section and give the form to your doctor. Your doctor will complete the Provider Information section above and submit the form to the Funds.</p>
+                </td>
+            </tr>
+        </table>
+        <table style="border-spacing: 0; width: 100%; margin-top: 15px;">
+            <tbody>
+                <tr>
+                    <td style="width: 3%; vertical-align: top;">
+                        <input type="checkbox" style="accent-color: rgb(45, 122, 255);width: 1rem;height: 1rem;" /> 
+                    </td>
+                    <td style="width: 97%; vertical-align: top;">
+                        <p style="font-family: 'HelveticaNeueLTPro-Cn';font-size: 16px;margin: 2px 0 15px;line-height: 24px;">
+                            I want the Funds to contact my doctor listed above so he or she can become an 1199SEIU Participating Provider.
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="border-spacing: 0;width: 100%;">
+            <tr>
+                <td style="width: 50%; vertical-align: bottom; border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px; margin: 0 0 5px; padding: 5px 6px 0; width: 100%; word-break: break-all; font-size: 16px; line-height: 26px;">-</p>
+                </td>
+                <td style="width: 50%; vertical-align: bottom; border-bottom: 1px solid #111;">
+                    <p style="min-height: 20px; margin: 0 0 5px; padding: 5px 6px 0; width: 100%; word-break: break-all; font-size: 16px; line-height: 26px;">-</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn'; margin: 6px 0 0; font-size: 16px; letter-spacing: 0.5px;">MEMBER'S FULL NAME (FIRST AND LAST)</p>
+                </td>
+                <td style="width: 50%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn'; margin: 6px 0 0; font-size: 16px; letter-spacing: 0.5px;">MEMBER'S PREFERRED PHONE</p>
+                </td>
+            </tr>
+                        
+        </table>
+        <table style="border-spacing: 0;width: 100%;">
+            <tr>
+                <td style="width: 100%; vertical-align: bottom; border-bottom: 1px solid #111;" colspan="2">
+                    <p style="min-height: 20px; margin: 0 0 5px; padding: 5px 6px 0; width: 100%; word-break: break-all; font-size: 16px; line-height: 26px;">-</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 60%; vertical-align: top;">
+                    <p style="font-family: 'HelveticaNeueLTPro-Cn'; margin: 6px 0 15px; font-size: 16px; letter-spacing: 0.5px;">EMPLOYER NAME</p>
+                    
+                    <p style="font-family: 'HelveticaNeueBoldCondensed';margin: 6px 0 0;font-size: 16px;letter-spacing: 0.5px;">
+                        This document is not an application, but a request for participation. It is subject to the Funds’
+                        network adequacy guidelines. In order to apply for participation with the Funds, you MUST
+                        participate with CAQH. The Funds only accept CAQH participants' applications. Please ensure
+                        that you have authorized the Funds to have access to your CAQH data.</p>
+
+                </td>
+                <td style="width: 40%; vertical-align: top;">
+                    <!-- <p style="font-family: 'HelveticaNeueLTPro-Cn'; margin: 6px 0 0; font-size: 16px; letter-spacing: 0.5px;">MEMBER'S PREFERRED PHONE</p> -->
+                    <div style="border: 1px solid #111;padding: 5px;margin-top: 5px;height: 100%;">
+                        <p style="font-family: HelveticaNeueBoldCondensed;font-size: 18px;margin-bottom: 0;margin-top: 0px;">FOR INTERNAL USE ONLY</p>
+                        <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 15px 0 10px;font-size: 16px;letter-spacing: 0.5px;">
+                            Rep name: <span style="min-height: 20px;width: 76%;word-break: break-all;line-height: 26px;border-bottom: 1px solid #111;display: inline-block;position: relative;top: -10px;">-</span>
+                        </p>
+                        <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 10px 0 10px;font-size: 16px;letter-spacing: 0.5px;">
+                            Manager approval: <span style="min-height: 20px;width: 64%;word-break: break-all;line-height: 26px;border-bottom: 1px solid #111;display: inline-block;position: relative;top: -10px;">-</span>
+                        </p>
+                        <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 10px 0 10px;font-size: 16px;letter-spacing: 0.5px;">
+                            Provider ID or Validation Check (initials): <span style="min-height: 20px;width: 32%;word-break: break-all;line-height: 26px;border-bottom: 1px solid #111;display: inline-block;position: relative;top: -10px;">-</span>
+                        </p>
+                        <p style="font-family: 'HelveticaNeueLTPro-Cn';margin: 10px 0 10px;font-size: 16px;letter-spacing: 0.5px;">
+                            Group contract on file <input type="checkbox" style="accent-color: rgb(45, 122, 255);width: 1rem;height: 1rem;" /> Yes <input type="checkbox" style="accent-color: rgb(45, 122, 255);width: 1rem;height: 1rem;" />  No
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+  </body>
+</html>

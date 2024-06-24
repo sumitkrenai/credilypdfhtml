@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Behavioral Health Practice Profile</title>
+    <style>
+      @font-face {
+        font-family: "Arial";
+        src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arial.ttf");
+        src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arial.ttf")
+          format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Arial-Narrow";
+        src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arialnarrow.ttf");
+        src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arialnarrow.ttf")
+          format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Arial-NarrowB";
+        src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/ARIALNB.TTF");
+        src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/ARIALNB.TTF")
+          format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Arial-medium";
+        src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/alrialmdm.ttf");
+        src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/alrialmdm.ttf")
+          format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Arial-bold";
+        src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arialbld.ttf");
+        src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arialbld.ttf")
+          format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Arial-Narrow";
+        word-wrap: break-word;
+        font-size: 18px;
+        line-height: 25px;
+      }
+      input[type="checkbox"] {
+        accent-color: #1976d2;
+      }
+      table{
+        width: 100%;
+        vertical-align: middle;
+        border-spacing: 0;
+      }
+      /* #c5d9f2 */
+    </style>
+  </head>
+  <body>
+    <div style="width: 90%;margin: 2rem auto;">
+        <table>
+            <tr>
+                <td style="width: 20%;">
+                    <div style="max-width:180px;">
+                        <img src="https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/anthem-logo.png" alt="anthemLogo" style="width: 100%;">
+                    </div>
+                </td>
+                <td style="width: 80%;">
+                    <img src="https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/anthem-banner.png" alt=""
+                    style="margin-top: 2rem;width: 45%;">
+                </td>
+            </tr>
+        </table>
+        <table style="margin-bottom: 2rem;">
+          <tr>
+            <td style="background-color: #c5d9f2;padding: 0px 10px 5px;">
+              <table>
+                <tr>
+                  <td style="width: 100%;">
+                    <h4 style="font-size: 18px;font-family: 'Arial-bold';">
+                      <span>SECTION 1</span> <sup style="color: #cc0000;">*</sup> <span style="font-size: 15px;">Any California licensed provider must indicate their license type and number below even if rendering ABA services</span>
+                    </h4>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Row 1 -->
+          <tr>
+            <td style="padding: 5px 10px;">
+              <table>
+                <tr>
+                  <td style="width: 20%;vertical-align: bottom;">
+                    <table>
+                      <tr>
+                        <td style="width: 20%;vertical-align: bottom;">
+                          <p>Date</p>
+                        </td>
+                        <td style="width: 80%;vertical-align: bottom;">
+                          <p style="border-bottom: 1px solid #111;"></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td style="width: 55%;vertical-align: bottom;padding: 0px 10px;">
+                    <table>
+                      <tr>
+                        <td style="width: 22%;vertical-align: bottom;">
+                          <p>Practitioner Name</p>
+                        </td>
+                        <td style="width: 78%;vertical-align: bottom;">
+                          <p style="border-bottom: 1px solid #111;"></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td style="width: 25%;vertical-align: bottom;">
+                    <table>
+                      <tr>
+                        <td style="width: 35%;vertical-align: bottom;">
+                          <p>Individual NPI</p>
+                        </td>
+                        <td style="width: 65%;vertical-align: bottom;">
+                          <p style="border-bottom: 1px solid #111;"></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Row 1 -->
+
+          <!-- Row 2 -->
+          <tr>
+            <td style="padding: 0px 10px 5px; ">
+              <table>
+                <tr>
+                  <td style="width: 60%;vertical-align: bottom;">
+                    <table>
+                      <tr>
+                        <td style="width: 15%;vertical-align: bottom;">
+                          <p>License Type<sup style="color: #cc0000;">*</sup></p>
+                        </td>
+                        <td style="width: 85%;vertical-align: bottom;">
+                          <span style="display: inline-block;margin-right: 10px;">MD/DO<input type="checkbox" style="margin-left: 10px;"></span>
+                          <span style="display: inline-block;margin-right: 10px;">PMHNP<input type="checkbox" style="margin-left: 10px;"></span>
+                          <span style="display: inline-block;margin-right: 10px;">Psychologist<input type="checkbox" style="margin-left: 10px;"></span>
+                          <span style="display: inline-block;margin-right: 10px;">LCSW<input type="checkbox" style="margin-left: 10px;"></span>
+                          <span style="display: inline-block;margin-right: 10px;">LMFT<input type="checkbox" style="margin-left: 10px;"></span>
+                          <span style="display: inline-block;margin-right: 10px;">LPCC<input type="checkbox" style="margin-left: 10px;"></span>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  
+                  <td style="width: 40%;vertical-align: bottom;">
+                    <table>
+                      <tr>
+                        <td style="width: 20%;vertical-align: bottom;">
+                          <p><sup style="color: #cc0000;">*</sup>License#</p>
+                        </td>
+                        <td style="width: 80%;vertical-align: bottom;">
+                          <p style="border-bottom: 1px solid #111;"></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Row 2 -->
+
+          <!-- Row 3 -->
+          <tr>
+            <td style="padding: 0px 10px;">
+              <table>
+                <tr>
+                  <td style="width: 15%;vertical-align: bottom;">
+                    <table>
+                      <tr>
+                        <td style="width: 25%;vertical-align: bottom;">
+                          <p>ABA</p>
+                        </td>
+                        <td style="width: 75%;vertical-align: bottom;">
+                          <span style="display: inline-block;margin-right: 10px;">
+                            <input type="checkbox" style="margin-right: 5px;">Yes
+                          </span>
+                          <span style="display: inline-block;margin-right: 10px;">
+                            <input type="checkbox" style="margin-right: 5px;">No
+                          </span>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  
+                  <td style="width: 30%;vertical-align: bottom;padding-right: 4rem;">
+                    <table>
+                      <tr>
+                        <td style="width: 35%;vertical-align: bottom;">
+                          <p>BCBA Cert#</p>
+                        </td>
+                        <td style="width: 80%;vertical-align: bottom;">
+                          <p style="border-bottom: 1px solid #111;"></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td style="width: 65%;vertical-align: bottom;">
+                    <table>
+                      <tr>
+                        <td style="width: 20%;vertical-align: bottom;">
+                          <p>Email Address</p>
+                        </td>
+                        <td style="width: 80%;vertical-align: bottom;">
+                          <p style="border-bottom: 1px solid #111;"></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Row 3 -->
+        </table>
+
+        <table>
+          <tr>
+            <td style="background-color: #c5d9f2;padding: 5px 10px;">
+              <table>
+                <tr>
+                  <td style="width: 100%;">
+                    <h4 style="font-size: 18px;font-family: 'Arial-bold';">
+                      <span>SECTION 2</span> 
+                    </h4>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 15px 15px;">
+              <table>
+                <tr>
+                  <td style="width: 30%;">
+                    <p>Is your practice currently accepting new patients?</p>
+                  </td>
+                  <td style="width: 70%;">
+                    <span style="display: inline-block;margin-right: 10px;">
+                      <input type="checkbox" style="margin-right: 5px;">Yes
+                    </span>
+                    <span style="display: inline-block;margin-right: 10px;">
+                      <input type="checkbox" style="margin-right: 5px;">No
+                    </span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+
+
+        <table >
+          <tr>
+            <td style="background-color: #c5d9f2;padding: 5px 10px;">
+              <table>
+                <tr>
+                  <td style="width: 100%;">
+                    <h4 style="font-size: 18px;font-family: 'Arial-bold';">
+                      <span>SECTION 3</span> 
+                    </h4>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 15px 15px 0px;">
+              <table>
+                <tr>
+                  <td style="width: 3%;vertical-align: middle;">
+                    <p>1</p>
+                  </td>
+                  <td style="width: 40%;vertical-align: middle;">
+                    <p>List any language(s) other than English, in which you can conduct therapy</p>
+                  </td>
+                  <td style="width: 57%;vertical-align: bottom;">
+                    <p style="border-bottom: 1px solid #111;"></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 15px 15px 0px;">
+              <table>
+                <tr>
+                  <td style="width: 3%;vertical-align: bottom;">
+                    <p>2</p>
+                  </td>
+                  <td style="width: 30%;vertical-align: bottom;">
+                    <p>List the days and times you are available to see patients</p>
+                  </td>
+                  <td style="width: 67%;vertical-align: bottom;">
+                    <p style="border-bottom: 1px solid #111;"></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 15px 15px;">
+              <table>
+                <tr>
+                  <td style="width: 3%;vertical-align: bottom;">
+                    <p>3</p>
+                  </td>
+                  <td style="width: 97%;vertical-align: bottom;">
+                    <p>Select your ethnic origin <span style="font-family: Arial-medium;    font-size: 14px;">(Optional: information will be utilized in online provider directories available to our customers)</span></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <div style="width: 80%;margin: 0 auto;">
+                <table>
+                  <tr>
+                    <td style="width: 33%;vertical-align: top;">
+                      <div style="margin-bottom: 5px;">
+                        <input type="checkbox" style="margin-right: 10px;">
+                        Asian Indian
+                      </div>
+                      <div style="margin-bottom: 5px;">
+                        <input type="checkbox" style="margin-right: 10px;">
+                        Native American <span style="font-size:15px;">( i.e. American
+                          Indian, Eskimo, Aleut or Native Hawaiian)</span>
+                      </div>
+                    </td>
+                    <td style="width: 33%;vertical-align: top;">
+                      <div style="margin-bottom: 5px;">
+                        <input type="checkbox" style="margin-right: 10px;">
+                        African-American
+                      </div>
+                      <div style="margin-bottom: 5px;">
+                        <input type="checkbox" style="margin-right: 10px;">
+                        Pacific-Asian
+                      </div>
+                    </td>
+                    <td style="width: 33%;vertical-align: top;">
+                      <div style="margin-bottom: 5px;">
+                        <input type="checkbox" style="margin-right: 10px;">
+                        Hispanic
+                      </div>
+                      <div style="margin-bottom: 5px;">
+                        <input type="checkbox" style="margin-right: 10px;">
+                        White, Non-Hispanic
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+             
+            </td>
+          </tr>
+        </table>
+
+        <table>
+          <tr>
+            <td style="background-color: #c5d9f2;padding: 5px 10px;">
+              <table>
+                <tr>
+                  <td style="width: 100%;">
+                    <h4 style="font-size: 18px;font-family: 'Arial-bold';">
+                      <span>SECTION 4</span> 
+                    </h4>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 15px 15px 0px;">
+              <table>
+                <tr>
+                  <td>
+                    <p>Keeping our online provider directories up-to-date helps our clinicians when directing referrals and members who access care 
+                      directly.<span style="font-family: 'Arial-NarrowB';"> Check all that apply to your primary areas of practice focus. At least one (1) choice must be selected under each 
+                      section: Areas of Expertise, Patients and Clinical Orientation.</span></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+
+        <table style="padding:10px 20px 0px;margin-bottom: 4rem;">
+          <tr>
+            <td style="padding: 15px 15px 0px;">
+              <table>
+                <tr>
+                  <td style="width: 33%;vertical-align: top;">
+                    <h3 style="margin-bottom: 10px;font-family: 'Arial-NarrowB';width: fit-content;border-bottom: 2px solid #111;">AREAS OF EXPERTISE</h3>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      ADD/ADHD
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Adoption
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Anti-Psychotic Injectables (MD/DO
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Anxiety and Panic Disorders
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Autism Spectrum Disorder
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Bariatric Surgery
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Behavior Modification
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Bipolar
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Brief Solution Focused
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Chemical Dependency
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Christian Counseling
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Compulsive Gambling
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Cultural/Ethnic Issues
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Depressive Disorders
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      DBT
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Divorce/Blended Family Issues
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Domestic Violence
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Eating Disorders
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      ECT
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      End of Life Issues
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 5px;">
+                      Family Therapy
+                    </div>
+                  </td>
+                  <td style="width: 33%;vertical-align: top;padding-top: 50px;">
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Gay/Lesbian Issues
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Group Therapy
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      HIV/AIDS Related Issues
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Infertility
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Medication Management (MD/DO/PMHNP)
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Men Issues
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Obsessive Compulsive Disorder
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Pain Management
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Personality Disorders
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Postpartum Issues
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Prenatal Issues
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Psychological Testing
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Schizophrenia/Schizoaffective Disorder
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Sexual Abuse
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Sexual Disorders
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Suboxone
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      TMS (MD/DO)
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Transgender Issues
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Victims of Abuse, Assault, Trauma
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Women Issues
+                    </div>
+                  </td>
+                  <td style="width: 33%;vertical-align: top;padding-top: 20px;">
+                    <h3 style="margin-bottom: 5px;font-family: 'Arial-NarrowB';width: fit-content;border-bottom: 2px solid #111;">PATIENTS</h3>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Children
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Adolescents <span style="font-size: 15px;">(Ages 13-17)</span>
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Adults <span style="font-size: 15px;">(Ages 18+)</span>
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Geriatrics <span style="font-size: 15px;">(Ages 60+)</span>
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Deaf/Hearing Impaired
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Disabled Persons
+                    </div>
+
+                    <h3 style="margin-bottom: 5px;font-family: 'Arial-NarrowB';width: fit-content;border-bottom: 2px solid #111;">CLINICAL ORIENTATION</h3>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Behavioral
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Biological/Medical
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Cognitive
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Cognitive Behavioral
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Psychodynamic
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                      <input type="checkbox" style="margin-right: 10px;">
+                      Systems
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <div style="font-size: 14px;line-height: 1.4;width: 95%;margin: 0 auto;">
+          <p>Anthem Blue Cross is the trade name of Blue Cross of California. Anthem Blue Cross and Anthem Blue Cross Life and Health Insurance Company are independent licensees of the Blue Cross Association.</p>
+          <p>ANTHEM is a registered trademark of Anthem Insurance Companies, Inc. The Blue Cross name and symbol are registered marks of the Blue Cross Association.</p>
+        </div>
+        
+    </div>
+  </body>
+</html>

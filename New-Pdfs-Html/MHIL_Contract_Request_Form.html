@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHIL_Contract_Request_Form</title>
+    <style>
+        /* https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arial.ttf */
+        @font-face {
+            font-family: "HelveticaNeueCyr-Light";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Light.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Light.ttf") format("truetype");
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "HelveticaNeueCyr-Medium";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Medium.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Medium.ttf") format("truetype");
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "HelveticaNeueCyr-Heavy";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Heavy.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Heavy.ttf") format("truetype");
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "HelveticaNeueCyr-Bold";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Bold.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueCyr-Bold.ttf") format("truetype");
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: "HelveticaNeueBoldCondensed";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueBoldCondensed.ttf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueBoldCondensed.ttf") format("truetype");
+            font-style: normal;
+        }
+       
+        @font-face {
+            font-family: "HelveticaNeueLTPro-Cn";
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueLTPro-Cn.otf");
+            src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueLTPro-Cn.otf") format("embedded-opentype"), 
+            url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueLTPro-Cn.otf") format("otf"), 
+            url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/HelveticaNeueLTPro-Cn.otf") format("truetype");
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+        <div style="font-family:HelveticaNeueLTPro-Cn;width:90%;font-size: 16px;margin: 0 auto;">
+            <table style="border-spacing:0;width: 100%;">
+                <tr>
+                  <td style="width: 25%;vertical-align: top;">
+                    <img src="molina-healthcare.png" alt="" style="width: 90%;object-fit: contain;">
+                  </td>
+                  <td style="width: 75%;vertical-align: bottom;">
+                    <h3 style="margin: 0px 0 0;font-size: 40px;font-family: HelveticaNeueBoldCondensed;text-align: right;color: rgb(99 100 102);">Provider Contract Request Form</h3>
+                  </td>
+                </tr>
+            </table>
+            <div style="width: 100%;font-size: 18px;line-height: 26px;color: rgb(99 100 102);">
+                <p>
+                    <span style="font-family: HelveticaNeueBoldCondensed;">Thank you for your interest in becoming a Molina Healthcare Provider.</span> To ensure the proper contract and
+                    credentialing packet is generated, please complete this Contract Request Form and return along with a current
+                    W-9 to <span style="font-family: HelveticaNeueBoldCondensed;">MHILProviderNetworkManagement@molinahealthcare.com</span> or call (855) 866-5462 for assistance.
+                </p>
+                <p>
+                    <span style="font-family: HelveticaNeueBoldCondensed;">If you are adding providers to a participating group or PHO/PO, please submit a Provider Information Update
+                        Form to MHILProviderNetworkManagement@molinahealthcare.com.</span>
+                </p>
+            </div>
+
+            <table style="width: 100%; border-spacing: 0; border: 1px solid rgb(99 100 102); border-bottom: 0px; margin-bottom: 1rem;">
+                <thead>
+                    <tr>
+                        <td style="vertical-align: middle; background-color: rgb(35 160 175); border-bottom: 0px solid rgb(99 100 102);" colspan="6">
+                            <p style="margin: 8px 0 8px; font-size: 18px; font-family: 'HelveticaNeueBoldCondensed'; color: #fff; text-align: center; letter-spacing: 0.6px;">PLEASE SELECT PROVIDER TYPE</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">Individual
+                            </p>
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">Medical Group
+                            </p>
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">ASC
+                            </p>
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">Urgent Care
+                            </p>
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">FQHC
+                            </p>
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">RHC
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">Behavioral Health
+                            </p>
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">Home Health
+                            </p>
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">DME
+                            </p>
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">Other
+                            </p>
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            
+                        </td>
+                    </tr>
+                </thead>
+            </table>
+            <table style="width: 100%; border-spacing: 0; border: 1px solid rgb(99 100 102); border-bottom: 0px; margin-bottom: 1rem;">
+                <thead>
+                    <tr>
+                        <td style="vertical-align: middle; background-color: rgb(35 160 175); border-bottom: 0px solid rgb(99 100 102);" colspan="6">
+                            <p style="margin: 8px 0 8px; font-size: 18px; font-family: 'HelveticaNeueBoldCondensed'; color: #fff; text-align: center; letter-spacing: 0.6px;">LINE OF BUSINESS</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">Medicaid
+                            </p>
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">MMP (Duals)
+                            </p>
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">
+                                <input type="checkbox" style="width: 0.8rem;height: 0.8rem;accent-color: #016bbe;position: relative;top: 1px;margin-right: 6px;">Marketplace
+                            </p>
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            
+                        </td>
+                        <td style="vertical-align: top; width: 16%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            
+                        </td>
+                    </tr>
+                    
+                </thead>
+            </table>
+
+            <table style="width: 100%; border-spacing: 0; border: 1px solid rgb(99 100 102); border-bottom: 0px; margin-bottom: 1rem;">
+                <thead>
+                    <tr>
+                        <td style="vertical-align: middle; background-color: rgb(35 160 175); border-bottom: 0px solid rgb(99 100 102);" colspan="6">
+                            <p style="margin: 8px 0 8px; font-size: 18px; font-family: 'HelveticaNeueBoldCondensed'; color: #fff; text-align: center; letter-spacing: 0.6px;">CONTACT INFORMATION</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; width: 50%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Requestor Name:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td style="vertical-align: top; width: 50%; border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Requestor Phone:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; width: 50%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Requestor Email:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td style="vertical-align: top; width: 50%; border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Requestor Fax:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>                  
+                </thead>
+            </table>
+
+
+            <table style="width: 100%; border-spacing: 0; border: 1px solid rgb(99 100 102); border-bottom: 0px; margin-bottom: 1rem;">
+                <thead>
+                    <tr>
+                        <td style="vertical-align: middle; background-color: rgb(35 160 175); border-bottom: 0px solid rgb(99 100 102);" colspan="6">
+                            <p style="margin: 8px 0 8px; font-size: 18px; font-family: 'HelveticaNeueBoldCondensed'; color: #fff; text-align: center; letter-spacing: 0.6px;">PROVIDER INFORMATION</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; width: 50%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);" colspan="2">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 12%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Legal Entity Name:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; width: 50%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Business/Service Address:</p>
+                                        </td>
+                                        <td style="width: 60%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;" colspan="2">
+                                            <p style="font-size: 14px; color: rgb(99 100 102); margin: 0px 4px 3px;">(If additional locations, please attach roster.)</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td style="vertical-align: top; width: 50%; border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Mailing address:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;" colspan="2">
+                                            <p style="font-size: 14px; color: rgb(99 100 102); margin: 0px 4px 3px;">(Contract will be emailed.)</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; width: 50%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">City, State, Zip:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td style="vertical-align: top; width: 50%; border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">City, State, Zip:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>                 
+                    <tr>
+                        <td style="vertical-align: top; width: 50%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Office Phone:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td style="vertical-align: top; width: 50%; border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Contact Phone:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>                 
+                    <tr>
+                        <td style="vertical-align: top; width: 50%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Office Fax:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td style="vertical-align: top; width: 50%; border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Contact Fax:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>                 
+                    <tr>
+                        <td style="vertical-align: top; width: 50%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Office Email:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td style="vertical-align: top; width: 50%; border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Contact Email:</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>                 
+                </thead>
+            </table>
+
+
+
+            <table style="width: 100%; border-spacing: 0; border: 1px solid rgb(99 100 102); border-bottom: 0px; margin-bottom: 1rem;">
+                <thead>
+                    <tr>
+                        <td style="vertical-align: middle; background-color: rgb(35 160 175); border-bottom: 0px solid rgb(99 100 102);" colspan="6">
+                            <p style="margin: 8px 0 8px; font-size: 18px; font-family: 'HelveticaNeueBoldCondensed'; color: #fff; text-align: center; letter-spacing: 0.6px;">PROVIDER INFORMATION</p>
+                        </td>
+                    </tr>
+                   
+                    <tr>
+                        <td style="vertical-align: top; width: 50%; border-right: 1px solid rgb(99 100 102); border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Group Specialty:</p>
+                                        </td>
+                                        <td style="width: 60%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td style="vertical-align: top; width: 50%; border-bottom: 1px solid rgb(99 100 102);">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 25%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Tax ID (TIN):</p>
+                                        </td>
+                                        <td style="width: 75%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; width: 50%; border-bottom: 1px solid rgb(99 100 102);" colspan="2">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 10%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Tax ID (TIN):</p>
+                                        </td>
+                                        <td style="width: 90%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 100%; vertical-align: middle;" colspan="2">
+                                            <p style="font-size: 14px; color: rgb(99 100 102); margin: 5px 4px 3px;text-align: right;">* List all Group NPI(s) applicable to the corresponding Tax ID.)</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>                 
+                    <tr>
+                        <td style="vertical-align: top; width: 50%; border-bottom: 1px solid rgb(99 100 102);" colspan="2">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 20%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">** Illinois Medicaid ID Number: </p>
+                                        </td>
+                                        <td style="width: 70%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 100%; vertical-align: middle;" colspan="2">
+                                            <p style="font-size: 14px; color: rgb(99 100 102); margin: 5px 4px 3px;">** Providers must meet credentialing requirements via the Illinois IMPACT system. Get the process started at <span style="font-family: 'HelveticaNeueBoldCondensed';">Provider Enrollment, illinois.gov.</span>)</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>                 
+                    <tr>
+                        <td style="vertical-align: top; width: 50%; border-bottom: 1px solid rgb(99 100 102);" colspan="2">
+                            <table style="width: 100%; border-spacing: 0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 12%; vertical-align: middle;">
+                                            <p style="font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px;">Hospital Affiliation(s):</p>
+                                        </td>
+                                        <td style="width: 70%; vertical-align: middle;">
+                                            <p style="border-bottom: 1px solid rgb(99 100 102);font-size: 16px; color: rgb(99 100 102); margin: 5px 4px 3px; word-break: break-all;">-</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>                 
+                                    
+                </thead>
+            </table>
+            <p style="font-size: 14px;font-family: HelveticaNeueBoldCondensed;color: rgb(99 100 102);">
+                If your request is approved, you will be contacted by a Molina Contract Manager within 30 days. If you have any questions regarding completion of this form, email the Provider Network Management team at MHILProviderNetworkManagement@MolinaHealthcare.com.
+            </p>
+            <p style="font-size: 14px;font-family: HelveticaNeueBoldCondensed;color: rgb(99 100 102);">Please note that completion of the above information is not confirmation of your participation status with Molina Healthcare of Illinois. Final contractual status is based upon your ability to meet credentialing standards and any additional contractual obligations.</p>
+        </div>
+</body> 
+</html>

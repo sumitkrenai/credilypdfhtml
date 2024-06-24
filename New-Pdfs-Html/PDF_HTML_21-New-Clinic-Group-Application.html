@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>New Clinic/Group Application</title>
+        <style>
+            @font-face {
+                font-family: "UniversLTStd";
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/UniversLTStd.ttf");
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/UniversLTStd.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: "UniversLTStd-Bold";
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/UniversLTStd-Bold.ttf");
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/UniversLTStd-Bold.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: "Arial";
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arial.ttf");
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arial.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: "Arial-medium";
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/alrialmdm.ttf");
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/alrialmdm.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: "Arial-bold";
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arialbld.ttf");
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arialbld.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-size: 15px;
+                color: #111;
+                font-family: "UniversLTStd-Bold";
+                line-height: 25px;
+            }
+            table {
+                width: 100%;
+                border-spacing: 0;
+            }
+            input {
+    accent-color: #007ee2;
+}        
+            
+        </style>
+    </head>
+    <body>
+        <div style="width: 90%; margin: 2rem auto;">
+            <h3 style="font-size: 40px; color: #2075b6; padding-top: 1rem; margin-bottom: 2rem;">
+                <span style="font-family: 'UniversLTStd-Bold';">New clinic/group application</span>
+            </h3>
+
+            <table style="border-bottom: 1px solid #ccc; margin-bottom: 15px;">
+                <tr>
+                <td style="border-bottom: 1px solid #ccc;">
+                    <table>
+                        <tr>
+                            <td style="padding: 3px 8px; width: 100%; vertical-align: bottom;">
+                                <p>Type of clinic services</p>
+                                <span style="margin-right: 15px;letter-spacing: 1px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Primary Care </span>
+                                <span style="margin-right: 15px;letter-spacing: 1px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Specialty Care </span>
+                                <span style="margin-right: 15px;letter-spacing: 1px; font-family: 'Arial';"> <input type="checkbox" style="margin-right: 3px;" />Urgent Care </span>
+                                <span style="margin-right: 15px;letter-spacing: 1px; font-family: 'Arial';"> <input type="checkbox" style="margin-right: 3px;" />Billing/Hospitalist/Emergency Service group <span style="display:inline-block;border-bottom: 1px solid #111;">ONLY</span></span>
+                            </td>
+                            
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>Name of clinic/group</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 50%; padding: 3px 8px;">
+                                    <p>Signage name displayed to patients <span style="font-family: 'UniversLTStd'; "> (if different)</span></p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>Does anyone at this location provide sign language?</p>
+                                    <span style="margin-right: 20px;letter-spacing: 1px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Yes </span>
+                                    <span style="margin-right: 20px;letter-spacing: 1px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />No </span>
+                                </td>
+                                <td style="padding: 3px 8px; width: 50%;">
+                                    <p>Do you provide TTY services?</p>
+                                    <span style="margin-right: 20px;letter-spacing: 1px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Yes </span>
+                                <span style="margin-right: 20px;letter-spacing: 1px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />No </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 33%; border-right: 1px solid #ccc;">
+                                    <p>Effective date</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 33%; border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'Arial-bold';">Clinic/Group EIN</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 33%; padding: 3px 8px;">
+                                    <p style="font-family: 'Arial-bold';">Clinic/Group NPI number</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <h3 style="padding: 5px 10px 4px; background-color: #ddeefb; font-size: 18px;font-family: 'Arial-bold';">Location</h3>
+            <table>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 80%; border-right: 1px solid #ccc;">
+                                    <p>Street address of clinic/group</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 20%; padding: 3px 8px;">
+                                    <p>County</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>City</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 30%; border-right: 1px solid #ccc;">
+                                    <p>State</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 20%; padding: 3px 8px;">
+                                    <p>ZIP</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 40%; border-right: 1px solid #ccc;">
+                                    <p>Phone for patient appointments</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 20%; border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'Arial-bold'">Clinic/Group fax</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 40%; padding: 3px 8px;">
+                                    <p>Contact person</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 40%; border-right: 1px solid #ccc;">
+                                    <p>Contact phone</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 60%; padding: 3px 8px;">
+                                    <p style="font-family: 'Arial-bold'">Clinic/Group email</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 100%;">
+                                    <p style="font-family: 'Arial-bold'">Web URL</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 100%;">
+                                    <p >Office hours at this location 
+                                        <span style="margin-left: 10px;margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Full time </span>
+                                        <span style="margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Part time </span>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <table style="margin-bottom: 10px;">
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 5%;border-right: 1px solid #ccc;"></td>
+                                <td style="width:13%;padding: 3px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;background-color: #f0eadf;">
+                                    <p style="font-family: 'Arial-bold';">Monday</p>
+                                </td>
+                                <td style="width:13%;padding: 3px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;background-color: #f0eadf;">
+                                    <p style="font-family: 'Arial-bold';">Tuesday</p>
+                                </td>
+                                <td style="width:13%;padding: 3px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;background-color: #f0eadf;">
+                                    <p style="font-family: 'Arial-bold';">Wednesday</p>
+                                </td>
+                                <td style="width:13%;padding: 3px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;background-color: #f0eadf;">
+                                    <p style="font-family: 'Arial-bold';">Thrusday</p>
+                                </td>
+                                <td style="width:13%;padding: 3px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;background-color: #f0eadf;">
+                                    <p style="font-family: 'Arial-bold';">Friday</p>
+                                </td>
+                                <td style="width:13%;padding: 3px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;background-color: #f0eadf;">
+                                    <p style="font-family: 'Arial-bold';">Saturday</p>
+                                </td>
+                                <td style="width:13%;padding: 3px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;background-color: #f0eadf;">
+                                    <p style="font-family: 'Arial-bold';">Sunday</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td style="padding: 0px 8px; width: 5%;border: 1px solid #ccc;border-bottom: 0;">
+                                    <p style="font-family: 'Arial-bold';">Open</p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 0px 8px; width: 5%;border: 1px solid #ccc;border-bottom: 0;background-color: #e2e2e2;">
+                                    <p style="font-family: 'Arial-bold';">Close</p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width:13%;padding: 0px 8px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <h3 style="padding: 5px 10px 4px; background-color: #ddeefb; font-size: 18px;font-family: 'Arial-bold';">Correspondence</h3>
+            <table style="margin-bottom: 10px;">
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 80%; border-right: 1px solid #ccc;">
+                                    <p>Correspondence address of clinic/group <span style="font-family: 'UniversLTStd';">(if different than above location)</span></p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 20%; padding: 3px 8px;">
+                                    <p>County</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 55%; border-right: 1px solid #ccc;">
+                                    <p>City</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 25%; border-right: 1px solid #ccc;">
+                                    <p>State</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 20%; padding: 3px 8px;">
+                                    <p>ZIP</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>Correspondence phone</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 50%; ">
+                                    <p style="font-family: 'Arial-bold'">Clinic/Group fax</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>Contact phone</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 50%; padding: 3px 8px;">
+                                    <p>Contact phone</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+            </table>
+
+            <h3 style="padding: 5px 10px 4px; background-color: #ddeefb; font-size: 18px;font-family: 'Arial-bold';">Payment</h3>
+            <table>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 80%; border-right: 1px solid #ccc;">
+                                    <p>Payment address of clinic/group <span style="font-family: 'UniversLTStd';">(if different than above location)</span></p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 20%; padding: 3px 8px;">
+                                    <p>County</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 55%; border-right: 1px solid #ccc;">
+                                    <p>City</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 25%; border-right: 1px solid #ccc;">
+                                    <p>State</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 20%; padding: 3px 8px;">
+                                    <p>ZIP</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>Correspondence phone</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 50%; ">
+                                    <p style="font-family: 'Arial-bold'">Clinic/Group fax</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>Contact phone</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 50%; padding: 3px 8px;">
+                                    <p>Contact phone</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <img src="https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/ArkansasFooter-2.jpg" alt="" style="width:100%;">
+        <div style="page-break-after: always;"></div>
+
+
+        <div style="width: 90%; margin: 2rem auto;">
+            <h3 style="padding: 5px 10px 4px; background-color: #ddeefb; font-size: 18px;font-family: 'Arial-bold';">Additional locations</h3>
+            <table>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 100%;">
+                                    <p style="font-family: 'Arial-bold';">Location name</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 45%; border-right: 1px solid #ccc;">
+                                    <p>Address</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 25%; border-right: 1px solid #ccc;">
+                                    <p>City</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 15%; border-right: 1px solid #ccc;">
+                                    <p>State</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 15%; padding: 3px 8px;">
+                                    <p>ZIP</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>Phone for patient appointments</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 50%; ">
+                                    <p style="font-family: 'Arial-bold'">Clinic/Group fax</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td style="padding: 3px 8px; width: 100%;">
+                                        <p>
+                                            Office hours at this location
+                                            <span style="margin-left: 10px; margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Full time </span>
+                                            <span style="margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Part time </span>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <table style="margin-bottom: 10px;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="padding: 3px 8px; width: 5%; border-right: 1px solid #ccc;"></td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Monday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Tuesday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Wednesday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Thrusday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Friday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Saturday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Sunday</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="padding: 0px 8px; width: 5%; border: 1px solid #ccc; border-bottom: 0;">
+                                            <p style="font-family: 'Arial-bold';">Open</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid #ccc;">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="padding: 0px 8px; width: 5%; border: 1px solid #ccc; border-bottom: 0; background-color: #e2e2e2;">
+                                            <p style="font-family: 'Arial-bold';">Close</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="border-bottom: 2px dashed #ccc;"></div>
+
+
+
+
+            <table>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 100%;">
+                                    <p style="font-family: 'Arial-bold';">Location name</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 45%; border-right: 1px solid #ccc;">
+                                    <p>Address</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 25%; border-right: 1px solid #ccc;">
+                                    <p>City</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 15%; border-right: 1px solid #ccc;">
+                                    <p>State</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 15%; padding: 3px 8px;">
+                                    <p>ZIP</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>Phone for patient appointments</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 50%; ">
+                                    <p style="font-family: 'Arial-bold'">Clinic/Group fax</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td style="padding: 3px 8px; width: 100%;">
+                                        <p>
+                                            Office hours at this location
+                                            <span style="margin-left: 10px; margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Full time </span>
+                                            <span style="margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Part time </span>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <table style="margin-bottom: 10px;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="padding: 3px 8px; width: 5%; border-right: 1px solid #ccc;"></td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Monday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Tuesday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Wednesday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Thrusday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Friday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Saturday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Sunday</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="padding: 0px 8px; width: 5%; border: 1px solid #ccc; border-bottom: 0;">
+                                            <p style="font-family: 'Arial-bold';">Open</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid #ccc;">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="padding: 0px 8px; width: 5%; border: 1px solid #ccc; border-bottom: 0; background-color: #e2e2e2;">
+                                            <p style="font-family: 'Arial-bold';">Close</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="border-bottom: 2px dashed #ccc;"></div>
+
+
+            <table>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 100%;">
+                                    <p style="font-family: 'Arial-bold';">Location name</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 45%; border-right: 1px solid #ccc;">
+                                    <p>Address</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 25%; border-right: 1px solid #ccc;">
+                                    <p>City</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 15%; border-right: 1px solid #ccc;">
+                                    <p>State</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 15%; padding: 3px 8px;">
+                                    <p>ZIP</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>Phone for patient appointments</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 50%; ">
+                                    <p style="font-family: 'Arial-bold'">Clinic/Group fax</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td style="padding: 3px 8px; width: 100%;">
+                                        <p>
+                                            Office hours at this location
+                                            <span style="margin-left: 10px; margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Full time </span>
+                                            <span style="margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Part time </span>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <table style="margin-bottom: 10px;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="padding: 3px 8px; width: 5%; border-right: 1px solid #ccc;"></td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Monday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Tuesday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Wednesday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Thrusday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Friday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Saturday</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 3px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; background-color: #f0eadf;">
+                                            <p style="font-family: 'Arial-bold';">Sunday</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="padding: 0px 8px; width: 5%; border: 1px solid #ccc; border-bottom: 0;">
+                                            <p style="font-family: 'Arial-bold';">Open</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid #ccc;">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="padding: 0px 8px; width: 5%; border: 1px solid #ccc; border-bottom: 0; background-color: #e2e2e2;">
+                                            <p style="font-family: 'Arial-bold';">Close</p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                        <td style="width: 13%; padding: 0px 8px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;">
+                                            <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <h3 style="padding: 5px 10px 4px; background-color: #ddeefb; font-size: 18px;font-family: 'Arial-bold';">Signature</h3>
+            <table style="margin-bottom: 2rem;">
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 60%;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'Arial-bold';">Print name and title of authorized facility representative</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 40%;">
+                                    <p style="font-family: 'Arial-bold';">Title</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 60%;border-right: 1px solid #ccc;">
+                                    <p style="font-family: 'Arial-bold';">Signature</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 40%;">
+                                    <p style="font-family: 'Arial-bold';">Date of signature</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 60%;vertical-align: bottom;">
+                                    <p style="font-family: 'Arial-bold';">Return completed form to and supporting documents:</p>
+                                    <p style="font-family: 'UniversLTStd';">Arkansas Blue Cross and Blue Shield</p>
+                                    <p style="font-family: 'UniversLTStd';">ATTN: Provider Network Operations</p>
+                                    <p style="font-family: 'Arial';">PO Box 2181</p>
+                                    <p style="font-family: 'Arial';">Little Rock AR 72203-2181</p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 40%;vertical-align: bottom;">
+                                    <p style="font-family: 'UniversLTStd';">or</p>
+                                    <p>Fax:<span style="font-family: 'UniversLTStd';"> 501-378-2465</span></p>
+                                    <p>Email: <a href="mailto:providernetwork@arkbluecross.com" style="color:#007ee2">providernetwork@arkbluecross.com</a></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+        <img src="https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/ArkansasFooter-2.jpg" alt="" style="width:100%;">
+    </body>
+</html>

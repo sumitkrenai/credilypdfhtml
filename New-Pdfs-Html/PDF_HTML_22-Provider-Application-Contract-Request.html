@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Provider-Application-Contract-Request</title>
+        <style>
+            @font-face {
+                font-family: "UniversLTStd";
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/UniversLTStd.ttf");
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/UniversLTStd.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: "UniversLTStd-Bold";
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/UniversLTStd-Bold.ttf");
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/UniversLTStd-Bold.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: "Arial";
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arial.ttf");
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arial.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-size: 15px;
+                color: #111;
+                font-family: "UniversLTStd-Bold";
+                line-height: 25px;
+            }
+            table {
+                width: 100%;
+                border-spacing: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="width: 90%; margin: 2rem auto;">
+            <h3 style="font-size: 40px; color: #2075b6; padding-top: 1rem; margin-bottom: 2rem;">
+                <span style="font-family: 'UniversLTStd-Bold';">Provider application</span> | <span style="font-family: 'Arial'; letter-spacing: 3px;">Contract request</span>
+            </h3>
+
+            <table style="border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin-bottom: 15px;">
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>To</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="width: 50%; padding: 3px 8px;">
+                                    <p>Date</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>From</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 50%;">
+                                    <p>Region</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 70%; vertical-align: bottom;">
+                                    <p>Category</p>
+                                    <span style="margin-right: 10px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />PCP </span>
+                                    <span style="margin-right: 10px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Specialist </span>
+                                    <span style="margin-right: 10px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />CNP/APN </span>
+                                    <span style="margin-right: 10px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Facility </span>
+                                    <span style="margin-right: 10px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Other </span>
+                                </td>
+                                <td style="padding: 3px 8px; width: 30%; vertical-align: bottom;">
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <h3 style="padding: 9px 10px 5px; background-color: #ddeefb; font-size: 18px;">Where the application should be sent</h3>
+            <table style="border-bottom: 1px solid #ccc; margin-bottom: 15px;">
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 100%;">
+                                    <p>Name</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 40%; border-right: 1px solid #ccc;">
+                                    <p>Street or PO box</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 30%; border-right: 1px solid #ccc;">
+                                    <p>City</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 15%; border-right: 1px solid #ccc;">
+                                    <p>State</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 15%;">
+                                    <p>ZIP</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <h3 style="padding: 9px 10px 5px; background-color: #ddeefb; font-size: 18px;">Provider information</h3>
+            <table style="margin-bottom: 15px;">
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 75%; border-right: 1px solid #ccc;">
+                                    <p>Provider name</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 25%;">
+                                    <p>NPI number</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 40%; border-right: 1px solid #ccc;">
+                                    <p>Primary specialty</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 30%;">
+                                    <p>Other specialty <span style="font-family: 'UniversLTStd';">(if applicable)</span></p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 100%;">
+                                    <p>Collaborating physician name and NPI number <span style="font-family: 'UniversLTStd';">(if applicable)</span></p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 100%;">
+                                    <p>PHO <span style="font-family: 'UniversLTStd';"> (or other provider organization)</span></p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 80%; border-right: 1px solid #ccc;">
+                                    <p>Clinic name</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 20%;">
+                                    <p>Clinic NPI number</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 10px 8px; width: 100%;">
+                                    <span style="margin-right: 10px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />New clinic </span>
+                                    <span style="margin-right: 10px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Solo provider </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 80%; border-right: 1px solid #ccc;">
+                                    <p>Address</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 20%;">
+                                    <p>Pope or Yell county?</p>
+                                    <span style="margin-right: 10px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />Yes </span>
+                                    <span style="margin-right: 10px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;" />No </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 50%; border-right: 1px solid #ccc;">
+                                    <p>City</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 30%; border-right: 1px solid #ccc;">
+                                    <p>State</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 20%;">
+                                    <p>ZIP</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 40%; border-right: 1px solid #ccc;">
+                                    <p>Contact Person</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 20%; border-right: 1px solid #ccc;">
+                                    <p>Phone</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                                <td style="padding: 3px 8px; width: 40%;">
+                                    <p>Email</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 100%;">
+                                    <p>Comments</p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 60px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc;">
+                        <table>
+                            <tr>
+                                <td style="padding: 3px 8px; width: 100%;">
+                                    <p>Approved by <span style="font-family: 'UniversLTStd';"> (NDR)</span></p>
+                                    <p style="font-family: 'UniversLTStd'; min-height: 20px;"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <h3 style="padding: 9px 10px 5px; background-color: #f0eadf; font-size: 18px;margin-bottom: 5px;">Networks available <span style="font-family: 'UniversLTStd';"> (For office use only)</span></h3>
+              <span style="margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;">Preferred Payment Plan </span>
+              <span style="margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;">True Blue PPO </span>
+              <span style="margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;">Health Advantage HMO </span>
+              <span style="margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;">Arkansas Blue Medicare </span><br>
+              <span style="margin-right: 20px; font-family: 'UniversLTStd';"> <input type="checkbox" style="margin-right: 3px;">Arkansas FirstSouce </span>
+        </div>
+        <img src="https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/ArkansasFooter.jpg" alt="" style="width:100%;">
+    </body>
+</html>
