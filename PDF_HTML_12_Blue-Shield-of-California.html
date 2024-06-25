@@ -30,6 +30,22 @@
                 font-style: normal;
             }
 
+            @font-face {
+                font-family: "Arial-medium";
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/alrialmdm.ttf");
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/alrialmdm.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: "Arial";
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arial.ttf");
+                src: url("https://credily-assets.s3.ap-south-1.amazonaws.com/Pdf-Application/arial.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
+
             * {
         margin: 0;
         padding: 0;
@@ -40,11 +56,12 @@
       }
      body{
         font-size: 16px;
-        font-family: "FieldworkGeoLight";
+        font-family: 'FieldworkGeoLight';
         color: black;
         line-height:20px;
         
       }
+    
 
       h4{
         font-size: 18px ;
@@ -52,11 +69,25 @@
         color: black;
       }
 
+      h3{
+        font-size: 16px;
+        font-family: 'FieldworkGeoDemibold';
+        color: black;
+        line-height:20px;
+      }
+
       h5{
         font-size: 10px;
         font-family: "FieldworkGeoLight";
         color: black;
         line-height:20px;
+      }
+
+      input{
+        width: 3rem;
+        height: 0.7rem;
+        position: relative;
+        top: 2px;
       }
   </style>
 </head>
@@ -90,7 +121,7 @@
 </colgroup>
   <tr>
     <!-- column 1 -->
-    <th>
+    <td>
       <p style=" text-align: left; margin-top: 20px;">The data provided on this form or an additional form 
       with equivalent data is used by Blue Shield of California 
       (Blue Shield) and/or Blue Shield of California Promise 
@@ -124,36 +155,36 @@
           taken to process the application.</p>
 
           <ul>
-            <li style=" margin-top:10px; text-align: left; margin-left:10px;">Include the licensure/certification or other 
+            <li style=" margin-top:10px; text-align: left; margin-left:20px;">Include the licensure/certification or other 
               supporting document(s) for the type of service and 
               name provided:
-                <ul style="margin-left: 15px; line-height:25px; margin-top: 10px;">
+                <ul style="margin-left: 30px; line-height:25px; margin-top: 10px;">
                   <li>You must indicate the issue date</li>
                   <li>You must indicate the issuing agency or 
                     governing body. </li>
                     <li>Facility/license/certification may be required 
                       for each service location.</li>
                 </ul></li>
-                <li style=" margin-top: 10px; margin-left: 10px; text-align: left">If you intend to submit claims using a legal 
+                <li style=" margin-top: 10px; margin-left: 20px; text-align: left">If you intend to submit claims using a legal 
                   entity name filed with the California Secretary 
                   of State, submit a copy of the approved filing.</li>
 
-                    <li style="margin-top: 10px; margin-left: 10px; text-align: left;">Provide proof of legal authorization to use the 
+                    <li style="margin-top: 10px; margin-left: 20px; text-align: left;">Provide proof of legal authorization to use the 
                       listed dba: 
-                    <ul style="margin-left: 15px; line-height:25px; margin-top: 10px;">
+                    <ul style="margin-left: 30px; line-height:25px; margin-top: 10px;">
                       <li>If a dba is required to be registered with 
                         the State licensing Board, include a 
                         photocopy of the Fictitious Name Permit 
                         from the State Licensing Board.</li>
                     </ul></li>
           </ul>
-    </th>
+    </td>
 
       <!-- column 2 -->
-    <th style="margin-left: 20px;"> 
+    <td style="margin-left: 20px;"> 
        <ul style="margin-left: 10px;">
         <ul>
-          <li style="margin-left: 95px; line-height:25px; margin-top: 60px; text-align: left; line-height: 19px">All other providers: If you are incorporated 
+          <li style="margin-left: 105px; line-height:25px; margin-top: 60px; text-align: left; line-height: 19px">All other providers: If you are incorporated 
             and using an incorporated name, only a 
             photocopy of your Articles of Incorporation 
             is required. If you are not incorporated and 
@@ -205,7 +236,7 @@
       counted as an in-person services location.
       </p>
   
-    </th>
+    </td>
 </tr>
 
 </table>
@@ -217,8 +248,9 @@
 </colgroup>
 <tr>
   <th>
-    <h5 style=" font-family: 'CenturyGothic';  color: blue; font-size: 25px;  text-align: left; margin-top:30px ">blueshieldca.com</h5>
-    <p style="font-size:12px; font-family: FieldworkGeoLight; text-align: left; margin-top:10px">Blue Shield of California and Blue Shield of California Promise Health Plan are independent licensees of the Blue Shield Association</p>
+    <h5 style=" font-family: 'CenturyGothic';  color: 
+#2596be; font-size: 20px;  text-align: left; margin-top:30px ">blueshieldca.com</h5>
+    <p style="font-size:10px; font-family: FieldworkGeoLight; text-align: left; margin-top:30px">Blue Shield of California and Blue Shield of California Promise Health Plan are independent licensees of the Blue Shield Association</p>
   </th>
   <th style="text-align: right;">
     <h5 style="margin-top: 30px;">Page 1/3</h5>
@@ -233,82 +265,82 @@
 
 
 
+<!-- page breaker -->
+
 <div style="page-break-after: always"></div>
 
 
 
 
+<!-- 2nd page begins -->
+
+
 <div style="width: 90% ; margin-left: 65px; margin-top: 60px;">
-<p style="margin-top: 10px; font-family:'FieldworkGeoDemibold'; font-size: 26px;">Provider Group/Facility Application (RA-02), cont’d.</p>
+<p style="margin-top: 10px; font-family:'FieldworkGeoDemibold'; font-size: 26px;">Provider Group/<span style="font-family: Arial-bold;">F</span>acility Application (RA-<span style="font-family: Arial-bold;">02</span>), cont’d.</p>
 
 
-<p style="margin-top: 10px; font-family:'FieldworkGeo'; font-size: 16px;">By submitting this form applicant certifies on behalf of this provider record that all information included on this form is true, accurate
+<p style="margin-top: 15px; font-family:'FieldworkGeoLight'; font-size: 16px;">By submitting this form applicant certifies on behalf of this provider record that all information included on this form is true, accurate
   and complete. Any false statements, the concealment of material fact, or the use of false documents may lead to prosecution 
   under applicable federal or state laws. Applicant certifies under penalty of perjury that the foregoing is true and correct. </p>
 
   <p style="margin-top: 10px; font-family:'FieldworkGeoDemibold'; font-size: 16px;">The provider group/facility email entered into this form will be tied to your provider portal account notifications and used for 
     account-specific outreach. </p>
 
+    <p style="font-family:'FieldworkGeoDemibold' ;  font-size:18px;  margin-top: 10px; margin-bottom: 5px;">Please type or print information in all fields.</p>
 
-    <table>
-      <tr>
-          <td>
-              <!-- main column -->
-              <table>
+
+    <table style="border-collapse: collapse; margin-top: 12px; border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black;">
+      <tr style="width: 1px solid black; border-bottom: 0px;">
+          <td style="border: 1; ">
+              <table style="border-collapse: collapse;">
                   <tr>
-                      <!-- column partition -->
                       <td style="width: 50%;">
-                          <!-- content Table> -->
-                          <table>
-                              <tr>
-                                  <td>Provider name/ <br>
+                          <table style="border: 1px solid black; border-collapse: collapse;">
+                              <tr >
+                                  <td style="padding: 5px;">Provider name/ <br>
                                     doing business as (dba):</td>
-                                  <td><p></p></td>
+                                  <td style="padding: 5px;"><p></p></td>
                               </tr>
                           </table>
-                          <!-- content Table> -->
                       </td>
-                      <!-- column partition -->
                       <td style="width: 50%;">
-                        <table>
+                        <table style="border: 1px solid black; border-collapse: collapse;"  >
                           <tr>
-                              <td>Legal entity <br>
+                              <td style="padding: 5px;">Legal entity <br>
                                 name:</td>
-                              <td><p></p></td>
+                              <td style="padding: 5px;"><p></p></td>
                           </tr>
                       </table>
                       </td>
                   </tr>
               </table>
-              <!-- main column -->
           </td>
       </tr>
 
 
       <tr>
         <td>
-            <!-- main column -->
-            <table style="width: 1px solid black;">
+            <table style="width: 1px solid black; border-collapse: collapse;">
                 <tr>
                     <!-- column partition -->
                     <td style="width: 50%;">
                         <!-- content Table> -->
-                        <table style="width: 1px solid black;">
+                        <table style="border: 1px solid black; border-collapse: collapse;">
                             <tr>
-                                <td>EIN/TIN (attach pre-printed <br>
+                                <td style="padding: 5px;">EIN/TIN (attach pre-printed <br>
                                   tax document/W-9):</td>
-                                <td><p></p></td>
+                                <td style="padding: 5px;"><p></p></td>
                             </tr>
                         </table>
                         <!-- content Table> -->
                     </td>
                     <!-- column partition -->
                     <td style="width: 50%;">
-                      <table>
+                      <table style="border: 1px solid black; border-collapse: collapse;">
                         <tr>
-                            <td>National provider <br>
+                            <td style="padding: 5px;">National provider <br>
                               identifier (NPI):</td>
-                            <td><p></p></td>
+                            <td style="padding: 5px;"><p></p></td>
                         </tr>
                     </table>
                     </td>
@@ -323,54 +355,1583 @@
 
     <tr>
       <td>
-          <!-- main column -->
-          <table style="width: 1px solid black;">
+          <table style="width: 1px solid black;  border-collapse: collapse;">
               <tr>
-                  <!-- column partition -->
                   <td style="width: 33%;">
-                      <!-- content Table> -->
-                      <table style="width: 1px solid black;">
+                      <table style="border: 1px solid black;">
                           <tr>
-                              <td>EIN/TIN (attach pre-printed <br>
-                                tax document/W-9):</td>
-                              <td><p></p></td>
+                              <td style="padding: 5px;">Primary specialty/ <br>
+                                type of service</td>
+                              <td style="padding: 5px;"><p></p></td>
                           </tr>
                       </table>
-                      <!-- content Table> -->
                   </td>
-                  <!-- column partition -->
-                  <td style="width: 33%;">
-                    <table>
+                  <td style="width: 33%; ">
+                    <table style="border: 1px solid black; border-collapse: collapse;">
                       <tr>
-                          <td>National provider <br>
+                          <td style="padding: 5px;">License/certification/ <br>
+                            permit issuing body:
                             identifier (NPI):</td>
-                          <td><p></p></td>
+                          <td style="padding: 5px;"><p></p></td>
                       </tr>
                   </table>
                   </td>
 
                   <td style="width: 33%;">
-                    <!-- content Table> -->
-                    <table style="width: 1px solid black;">
+                    <table style="border: 1px solid black;">
                         <tr>
-                            <td>EIN/TIN (attach pre-printed <br>
-                              tax document/W-9):</td>
-                            <td><p></p></td>
+                            <td style="padding: 5px;">License/certification number <br>
+                              (attach copy of document)</td>
+                            <td style="padding: 5px;"><p></p></td>
                         </tr>
                     </table>
-                    <!-- content Table> -->
                 </td>
                 
               </tr>
           </table>
-          <!-- main column -->
       </td>
   </tr>
 
 
 
+  <tr>
+    <td>
+        <!-- main column -->
+        <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr style="height: 30px;">
+                <!-- column partition -->
+                <td style="width: 60%; border: 1px solid black; ">
+                    <!-- content Table> -->
+                    <table style="border-collapse: collapse;">
+                        <tr>
+                            <td style="width: 50%; padding: 5px;">Patient visit options (all that apply):</td>
+                            <td><p> 
+                              <span style="margin-left: -100px;"><input type="checkbox">Telehealth visits</span>
+                              <span style="margin-left: 20px;"><input type="checkbox" value="hello">In-person visits</span>
+                            </p>
+                          </td>
+                        </tr>
+                    </table>
+                    <!-- content Table> -->
+                </td>
+                <!-- column partition -->
+                <td style="width: 40%;">
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                        <td style="padding: 5px;">Website URL:</td>
+                        <td style="padding: 5px;"><p></p></td>
+                    </tr>
+                </table>
+                </td>    
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+<tr>
+  <td>
+    <table style="border: 1px solid black; height: 40px; border-collapse: collapse;">
+      <tr style="height: 35px;">
+        <td style="padding: 5px;"> <h4 style="font-size: 16px;">Provide service location address below. Additional service location(s) for your provider group/facility will require a separate application. </h4></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+
+
+<tr>
+  <td>
+      <table style="width: 1px solid black; border-collapse: collapse;">
+          <tr>
+              <td style="width: 50%;">
+                  <table style="border: 1px solid black; border-collapse: collapse;">
+                      <tr>
+                          <td style="padding: 5px;">Practice <br> 
+                            street address:</td>
+                          <td style="padding: 5px;"><p></p></td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="width: 25%; border: 1px solid black;">
+                <table style="border-collapse: collapse;">
+                  <tr>
+                      <td style="padding: 5px;">City:</td>
+                      <td style="padding: 5px;"><p></p></td>
+                  </tr>
+              </table>
+              </td>
+
+              <td style="width: 10%; border: 1px solid black;">
+                <table  style="border-collapse: collapse;">
+                    <tr>
+                        <td style="padding: 5px;">State</td>
+                        <td style="padding: 5px;"><p></p></td>
+                    </tr>
+                </table>
+            </td>
+
+            <td style="width: 15%; border: 1px solid black;">
+              <table style="border-collapse: collapse;">
+                  <tr>
+                      <td style="padding: 5px;">ZIP code:</td>
+                      <td style="padding: 5px;"><p></p></td>
+                  </tr>
+              </table>
+          </td>
+            
+          </tr>
+      </table>
+  </td>
+</tr>
+
+
+
+<tr>
+  <td>
+      <table style="width: 1px solid black;">
+          <tr>
+              <td style="width: 33%;">
+                  <table style="border: 1px solid black;">
+                      <tr>
+                          <td style="padding: 5px;">Location appointment <br>
+                            phone number:</td>
+                          <td style="padding: 5px;"><p></p></td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="width: 33%;">
+                <table style="border: 1px solid black;">
+                  <tr>
+                      <td style="padding: 5px;">Location <br> 
+                        fax number:</td>
+                      <td style="padding: 5px;"><p></p></td>
+                  </tr>
+              </table>
+              </td>
+
+              <td style="width: 33%;">
+                <table style="border: 1px solid black;">
+                    <tr>
+                        <td style="padding: 5px;">After hours <br>
+                          phone numberif applicable:</td>
+                        <td style="padding: 5px;"><p></p></td>
+                    </tr>
+                </table>
+            </td>
+            
+          </tr>
+      </table>
+  </td>
+</tr>
+
+
+
+<tr>
+  <td>
+    <table>
+      <tr style="height: 30px;">
+        <td style="width: 60%; border: 1px solid black;">
+          <table style="border-collapse: collapse;">
+            <tr>
+              <td style="padding: 5px;">Provider Group/Facility Business email:</td>
+              <td style="padding: 5px;"><p></p></td>
+            </tr>
+          </table>
+        </td>
+        <td style="width: 40%; border: 1px solid black;">
+          <table style="border-collapse: collapse;">
+            <tr>
+              <td style="padding: 5px;">Wheelchair access? </td>
+              <td style="padding: 5px;"> <p></p> </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+<tr>
+  <table style="border-collapse: collapse; border-left: 1px solid black;">
+    <td>
+      <tr style="height: 28px;">
+        <td style="border: 1px solid black; padding: 5px; font-family: 'FieldworkGeoDemibold';"><p>Office days and hours (complete all days, using N/A if not available): </p></td>
+      </tr>
+    </td>
+  </table>
+</tr>
+
+
+
+<tr>
+  <td>
+    <table style="border-collapse: collapse;">
+      <tr>
+        <td style="border: 1px solid black; text-align: center; width: 14%;"> <table> <tr> <td style="padding: 5px;"> Sunday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+        <td style="border: 1px solid black; text-align: center;  width: 14.5%;"> <table> <tr> <td style="padding: 5px;"> Monday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+        <td style="border: 1px solid black; text-align: center; width: 14.5%;"> <table> <tr> <td style="padding: 5px;"> Tuesday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+        <td style="border: 1px solid black; text-align: center; width: 14.5%;"> <table> <tr> <td style="padding: 5px;"> Wednesday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+        <td style="border: 1px solid black; text-align: center; width: 14.5%;"> <table> <tr> <td style="padding: 5px;"> Thursday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+        <td style="border: 1px solid black; text-align: center; width: 15%;"> <table> <tr> <td style="padding: 5px;"> Friday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+        <td style="border: 1px solid black; text-align: center; width: 14%;"> <table> <tr> <td style="padding: 5px;"> Saturday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+
+<tr >
+  <td>
+    <table style="border: 1px solid black;">
+      <tr style="height: 35px;">
+        <td style="width: 30%;">
+          <table>
+            <td style="padding: 5px; width: 30%;">
+              <p>Qualified medical interpreter:</p>
+            </td>
+          </table>
+        </td>
+
+        <td>
+          <table>
+            <tr>
+              <td style="padding: 5px;" >
+                <input type="checkbox">
+                <label for="vehicle1">Cantonese</label><br>
+              </td>
+              <td style="padding: 5px;">
+                <input type="checkbox">
+                <label for="vehicle1">Korean</label><br>
+              </td>
+              <td style="padding: 5px;">
+                <input type="checkbox">
+                <label for="vehicle1">Mandarin</label><br>
+              </td style="padding: 5px;">
+              <td style="padding: 5px;">
+                <input type="checkbox">
+                <label for="vehicle1">Russian</label><br>
+              </td>
+         <td style="padding: 5px;"> 
+        <input type="checkbox">
+        <label for="vehicle1">Spanish</label><br>
+      </td>
+      <td style="padding: 5px;">
+        <input type="checkbox">
+        <label for="vehicle1">Vietnamese</label><br>
+      </td>
+
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+
+
+<tr>
+  <td style="border: 1px solid black;">
+    <table style="border: 1px solid black;">
+      <tr>
+        <td>
+          <table> <tr style="height: 40px;"> <td style="padding: 5px;"><p style="margin-top: -18px;">Non-roster member languages: </p></td></tr><tr><td style="padding: 5px;"><p></p></td></tr></table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+
+<tr>
+  <td>
+    <table style=" border: 1px solid black;">
+      <tr style="height: 30px;">
+        <td style="padding: 5px;">
+<h3>Handicap accessible (all that apply):</h3>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+
+
+<tr>
+  <td>
+    <table>
+      <tr>
+        <td style="width:25%;">
+          <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+              <td style="padding: 5px;">
+                <input type="checkbox">
+                <label for=""> Exam Room</label>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td style="width: 25%;">
+          <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+              <td style="padding: 5px;">
+                <input type="checkbox">
+                <label for="">Exterior handicap accessible</label>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td style="width: 25%;">
+          <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+              <td style="padding: 5px;">
+                <input type="checkbox">
+              <label for="">Internal handicap accessible</label>
+              </td>
+            </tr>
+          </table>
+        </td>
+
+        <td style="width: 25%;">
+          <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+              <td style="padding: 5px;">
+                <input type="checkbox">
+                <label for="">Medical equipment</label>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <table>
+      <tr>
+        <td style="width:25%;">
+          <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+              <td style="padding: 5px;">
+                <input type="checkbox">
+                <label for="">Parking</label>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td style="width: 25%;">
+          <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+              <td style="padding: 5px;">
+                <input type="checkbox">
+                <label for="">Table scale</label>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td style="width:50%;">
+          <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+              <td style="padding: 5px;">
+                <input type="checkbox">
+              <label for="">Wheelchairs available</label>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+<tr>
+  <td>
+    <table style="border: 1px solid black;">
+      <tr>
+        <td style="padding: 5px;">
+          <h3>Billing information</h3>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+
+<tr>
+  <td>
+    <table style="border-collapse: collapse;">
+      <tr style="height: 25px;">
+        <td style="border: 1px solid black; text-align: center; width: 50%;"> <table> <tr> <td style="padding: 5px; text-align: left;"><p>Address (if different from service location):</p></td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+        <td style="border: 1px solid black; text-align: center;  width: 25%;"> <table> <tr> <td style="padding: 5px; text-align: left;"><p>City</p> </td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+        <td style="border: 1px solid black; text-align: center; width: 10%;"> <table> <tr> <td style="padding: 5px; text-align: left;"> <p>State</p> </td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+        <td style="border: 1px solid black; text-align: center; width: 15%;"> <table> <tr> <td style="padding: 5px; text-align: left;"> <p>ZIP code</p></td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+<tr>
+  <td>
+      <table style="width: 1px solid black; border-collapse: collapse;">
+          <tr>
+              <td style="width: 33%;">
+                  <table style="border: 1px solid black; border-collapse: collapse;">
+                      <tr>
+                          <td style="padding: 5px;">Phone:</td>
+                          <td style="padding: 5px;"><p></p></td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="width: 33%;">
+                <table style="border: 1px solid black; border-collapse: collapse;">
+                  <tr>
+                      <td style="padding: 5px;">Fax:</td>
+                      <td style="padding: 5px;"><p></p></td>
+                  </tr>
+              </table>
+              </td>
+          </tr>
+      </table>
+  </td>
+</tr>
+
+
+<tr>
+  <td>
+    <table style="border-collapse: collapse;">
+      <tr style="width: 8px;">
+        <td style="border: 1px solid black ; padding: 5px;">
+          <h3>Paperless remittance advice (replaces paper <span style="font-family:'Arial-medium' ; font-size: 15px;">E</span>OB)</h3>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+
+<tr>
+  <td>
+    <table>
+      <tr>
+        <td style="border: 1px solid black;padding: 5px;">
+          <p style="margin-top: 10px;">Direct electronic data interchange (EDI) trading partners may receive 835 electronic remittance advices (ERA) directly from Blue Shield / 
+            Blue Shield of California Promise Health Plan</p>
+            <br>
+            <p>
+              Authorize a vendor/clearinghouse to receive ERA data to automate your payment posting on your behalf.
+This information will certify that the Third Party named below is authorized to receive the provider electronic remittance advice (also known 
+as the 835). Paper Explanation of Benefits will be discontinued at the time of enrollment
+            </p>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+<tr>
+  <td>
+    <table style="border-collapse: collapse;">
+      <tr style="width: 8px;">
+        <td style="border: 1px solid black ; padding: 5px;">
+          <span>   <h3><span style="font-family:'Arial'; font-size: 14px;">E</span>RA election: <span style="font-style: italic;">Select and document only one.</span> The third-party vendor/clearinghouse documented below is authorized to receive 
+            <span style="font-family: 'Arial'; font-size: 14px;">E</span>RAs on behalf of your provider organization.</h3></span><span><p>The trading partner is enrolled to receive ERA via secure file transfer protocol (SFTP) 
+              directly from Blue Shield/Blue Shield Promise</p></span>
+       
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+
+
+
+<tr>
+  <td>
+      <table style="width: 1px solid black;">
+          <tr>
+              <td style="width: 55%;">
+                  <table style="border: 1px solid black;">
+                      <tr style="height: 40px;">
+                          <td style="padding: 5px;">Name:</td>
+                          <td style="padding: 5px;"><p></p></td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="width: 25%;">
+                <table style="border: 1px solid black;">
+                  <tr style="height: 40px;">
+                      <td style="padding: 5px;">Phone:</td>
+                      <td style="padding: 5px;"><p></p></td>
+                  </tr>
+              </table>
+              </td>
+
+              <td style="width: 25%;">
+                <table style="border: 1px solid black;">
+                    <tr style="height: 40px;">
+                        <td style="padding: 5px;">Fax:</td>
+                        <td style="padding: 5px;"><p></p></td>
+                    </tr>
+                </table>
+            </td>
+            
+          </tr>
+      </table>
+  </td>
+</tr>
+
+
+
+<tr>
+  <td>
+      <table style="width: 1px solid black;">
+          <tr>
+              <td style="width: 50%;">
+                  <table style="border: 1px solid black;">
+                      <tr style="height: 40px;">
+                          <td style="padding: 5px;"><p>Street address:</p></td>
+                          <td style="padding: 5px;"><p></p></td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="width: 25%;">
+                <table style="border: 1px solid black;">
+                  <tr style="height: 40px;">
+                      <td style="padding: 5px;">City:</td>
+                      <td style="padding: 5px;"><p></p></td>
+                  </tr>
+              </table>
+              </td>
+
+              <td style="width: 10%;">
+                <table style="border: 1px solid black;">
+                    <tr style="height: 40px;">
+                        <td style="padding: 5px;">State:</td>
+                        <td style="padding: 5px;"><p></p></td>
+                    </tr>
+                </table>
+            </td>
+
+            <td style="width: 15%;">
+              <table style="border: 1px solid black;">
+                  <tr style="height: 40px;">
+                      <td style="padding: 5px;">ZIP code:</td>
+                      <td style="padding: 5px;"><p></p></td>
+                  </tr>
+              </table>
+          </td>
+            
+          </tr>
+      </table>
+  </td>
+</tr>
+
+
+<tr>
+  <td>
+      <table style="width: 1px solid black;">
+          <tr>
+              <td style="width: 60%;">
+                  <table style="border: 1px solid black;">
+                      <tr style="height: 40px;">
+                          <td style="padding: 5px;"><p>Name of technical contact</p></td>
+                          <td style="padding: 5px;"><p></p></td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="width: 40%;">
+                <table style="border: 1px solid black;">
+                  <tr style="height: 40px;">
+                      <td style="padding: 5px;">Email address:</td>
+                      <td style="padding: 5px;"><p></p></td>
+                  </tr>
+              </table>
+              </td>           
+          </tr>
+      </table>
+  </td>
+</tr>
+
+
+
+<!-- page endign log and content -->
+<table style="margin-top:50px ;">
+  <colgroup>
+    <col style="width: 80%;">
+    <col style="width: 20%;">
+</colgroup>
+<tr>
+  <th>
+    <h5 style=" font-family: 'CenturyGothic';  color: 
+#2596be; font-size: 20px;  text-align: left; margin-top:30px ">blueshieldca.com</h5>
+  </th>
+  <th style="text-align: right;">
+    <h5 style="margin-top: 30px;">Page 2/3</h5>
+    <h5>RA-02 (7/23)  </h5>
+  </th>
+</tr>
   </table>
 </div>
+
+
+
+<!-- main Table closinng -->
+</table>
+
+
+
+
+<!-- 2nd page break -->
+<div style="page-break-after: always;"></div>
+
+
+
+<!-- 3rd page begins -->
+<div style="width: 90% ; margin-left: 65px; margin-top: 60px;">
+
+
+  <p style="margin-top: 10px; font-family:'FieldworkGeoDemibold'; font-size: 26px;">Provider Group/<span style="font-family: Arial-bold;">F</span>acility Application (RA-<span style="font-family: Arial-bold;">02</span>), cont’d.</p>
+
+  <p style="margin-top: 20px;">By submitting this form applicant certifies on behalf of this provider record that all information included on this form is true, accurate
+    and complete. Any false statements, the concealment of material fact, or the use of false documents may lead to prosecution under 
+    applicable federal or state laws. Applicant certifies under penalty of perjury that the foregoing is true and correct. </p>
+
+    <h4 style="margin-top: 20px;">Identify all professional practitioners at the above service location indicated on page two. Additional practitioners for 
+      that service location can be added using a copy of this template.</h4>
+
+
+<table style="border-collapse: collapse; margin-top: 20px; margin-bottom: 0;">
+
+  <tr>
+    <td>
+      <table style="border-collapse: collapse;">
+        <tr>
+          <!-- table 1 -->
+          <td style="width: 50%; border: 1px solid black">
+            <table style="border-collapse: collapse;">
+              <tr>
+                <td>
+                  <!-- main heading table -->
+                  <table><tr><td style="border: 1px solid black; padding: 5px;"><h4>Roster Practitioner 1</h4></td></tr></table>
+
+
+                  <!-- row 2 -->
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+                  <!-- row 3 -->
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+
+                      <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+                  <!-- row 4 -->
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">License number:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">License issuing body:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">Practitioner’s NPI:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">Supervisor’s NPI:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+
+
+ 
+                  
+                        <table>
+                          <tr style="height: 35px;">
+                            <td style="border: 1px solid black; padding: 5px;">
+                              <span><p>Check here if practitioner is hospital-based: <input type="checkbox"></p></span>
+                            </td>
+                          </tr>
+                        </table>
+                 
+                  
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">Practitioner <br>
+                              language(s) spoken: </td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 38px;">
+                            <td style="width: 30%; padding: 5px;">Practitioner ethnicity:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+
+                  <!-- table in table (two table) -->
+                   <tr>
+                    <td>
+                      <table style="border-collapse: collapse;">
+                        <tr  style="height: 134px;">
+                          <!-- table1 -->
+                          <td style="width: 60%; border: 1px solid black;">
+                            <table style="border-collapse: collapse;">
+                              <tr>
+                                <td >
+                                  <p style="margin-top: 0px; margin-left: 5px;">Patient acceptance:</p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
+                                </td>
+                            </table>
+
+                            <table style="border-collapse: collapse;">
+                              <tr>
+                                <td>
+                                  <table style="border-collapse: collapse;">
+                                    <tr>
+                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                        <table style="border-collapse: collapse;">
+                                          <tr>
+                                            <td style="width: 30%; padding: 5px;">Lowest age:</td>
+                                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+
+                            <table style="border-collapse: collapse;">
+                              <tr>
+                                <td>
+                                  <table style="border-collapse: collapse;">
+                                    <tr>
+                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                        <table style="border-collapse: collapse;">
+                                          <tr>
+                                            <td style="width: 30%; padding: 5px;">Highest age:</td>
+                                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                       
+                          </td>
+
+                          <!-- table 2 -->
+                          <td style="width: 40%; border: 1px solid black; ;">
+                          <p style="margin-top: -10px; margin-left: 10px;">Gender Limitation</p>
+                          <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
+                          <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
+                          <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Female only</label></p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                   </tr>
+
+
+
+                </td>
+              </tr>
+            </table>
+          </td>
+          
+
+
+
+
+
+
+          <!-- table 2 -->
+          <td style="width: 50%; border: 1px solid black; padding: px;">
+            <table>
+              <tr>
+                <td>
+                   <!-- main heading table -->
+                   <table><tr><td style="border: 1px solid black; padding: 5px;"><h4>Roster Practitioner 2</h4></td></tr></table>
+
+
+                   <!-- row 2 -->
+                   <table style="border-collapse: collapse;">
+                     <tr>
+                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                     </tr>
+                   </table>
+ 
+                   <!-- row 3 -->
+                   <table style="border-collapse: collapse;">
+                     <tr>
+                       <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+ 
+                       <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                     </tr>
+                   </table>
+
+                    <!-- row 4 -->
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">License number:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">License issuing body:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">Practitioner’s NPI:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">Supervisor’s NPI:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+
+
+ 
+                  
+                        <table>
+                          <tr style="height: 35px;">
+                            <td style="border: 1px solid black; padding: 5px;">
+                              <span><p>Check here if practitioner is hospital-based: <input type="checkbox"></p></span>
+                            </td>
+                          </tr>
+                        </table>
+                 
+                  
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">Practitioner <br>
+                              language(s) spoken: </td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 38px;">
+                            <td style="width: 30%; padding: 5px;">Practitioner ethnicity:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                   <!-- table in table (two table) -->
+                   <tr>
+                    <td>
+                      <table style="border-collapse: collapse;">
+                        <tr  style="height: 134px;">
+                          <!-- table1 -->
+                          <td style="width: 60%; border: 1px solid black;">
+                            <table style="border-collapse: collapse;">
+                              <tr>
+                                <td >
+                                  <p style="margin-top: 0px; margin-left: 5px;">Patient acceptance:</p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
+                                </td>
+                            </table>
+
+                            <table style="border-collapse: collapse;">
+                              <tr>
+                                <td>
+                                  <table style="border-collapse: collapse;">
+                                    <tr>
+                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                        <table style="border-collapse: collapse;">
+                                          <tr>
+                                            <td style="width: 30%; padding: 5px;">Lowest age:</td>
+                                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+
+                            <table style="border-collapse: collapse;">
+                              <tr>
+                                <td>
+                                  <table style="border-collapse: collapse;">
+                                    <tr>
+                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                        <table style="border-collapse: collapse;">
+                                          <tr>
+                                            <td style="width: 30%; padding: 5px;">Highest age:</td>
+                                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                       
+                          </td>
+
+                          <!-- table 2 -->
+                          <td style="width: 40%; border: 1px solid black;">
+                          <p style="margin-top: -10px; margin-left: 10px;">Gender Limitation</p>
+                          <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
+                          <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
+                          <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Female only</label></p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                   </tr>
+
+                 
+                
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+</table>
+
+
+
+
+<!-- bottom 2 table (identical) -->
+
+<table style="border-collapse: collapse; margin-top:0px; border-top: 0px;">
+
+  <tr>
+    <td>
+      <table style="border-collapse: collapse;">
+        <tr>
+          <!-- table 1 -->
+          <td style="width: 50%; border: 1px solid black ; border-top: 0px;">
+            <table style="border-collapse: collapse;">
+              <tr>
+                <td>
+                  <!-- main heading table -->
+                  <table><tr><td style="border: 1px solid black; border-top: 0px; padding: 5px;"><h4>Roster Practitioner 3</h4></td></tr></table>
+
+
+                  <!-- row 2 -->
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+                  <!-- row 3 -->
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+
+                      <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+                  <!-- row 4 -->
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">License number:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">License issuing body:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">Practitioner’s NPI:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">Supervisor’s NPI:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+
+
+ 
+                  
+                        <table>
+                          <tr style="height: 35px;">
+                            <td style="border: 1px solid black; padding: 5px;">
+                              <span><p>Check here if practitioner is hospital-based: <input type="checkbox"></p></span>
+                            </td>
+                          </tr>
+                        </table>
+                 
+                  
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">Practitioner <br>
+                              language(s) spoken: </td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 38px;">
+                            <td style="width: 30%; padding: 5px;">Practitioner ethnicity:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+
+                  <!-- table in table (two table) -->
+                   <tr>
+                    <td>
+                      <table style="border-collapse: collapse;">
+                        <tr  style="height: 134px;">
+                          <!-- table1 -->
+                          <td style="width: 60%; border: 1px solid black;">
+                            <table style="border-collapse: collapse;">
+                              <tr>
+                                <td >
+                                  <p style="margin-top: 0px; margin-left: 5px;">Patient acceptance:</p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
+                                </td>
+                            </table>
+
+                            <table style="border-collapse: collapse;">
+                              <tr>
+                                <td>
+                                  <table style="border-collapse: collapse;">
+                                    <tr>
+                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                        <table style="border-collapse: collapse;">
+                                          <tr>
+                                            <td style="width: 30%; padding: 5px;">Lowest age:</td>
+                                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+
+                            <table style="border-collapse: collapse;">
+                              <tr>
+                                <td>
+                                  <table style="border-collapse: collapse;">
+                                    <tr>
+                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                        <table style="border-collapse: collapse;">
+                                          <tr>
+                                            <td style="width: 30%; padding: 5px;">Highest age:</td>
+                                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                       
+                          </td>
+
+                          <!-- table 2 -->
+                          <td style="width: 40%; border: 1px solid black;">
+                          <p style="margin-top: -10px; margin-left: 10px;">Gender Limitation</p>
+                          <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
+                          <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
+                          <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Female only</label></p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                   </tr>
+
+
+
+                </td>
+              </tr>
+            </table>
+          </td>
+          
+
+
+
+
+
+
+          <!-- table 2 -->
+          <td style="width: 50%; border: 1px solid black; padding: px; border-top: 0px;">
+            <table>
+              <tr>
+                <td>
+                   <!-- main heading table -->
+                   <table><tr><td style="border: 1px solid black; border-top: 0px; padding: 5px;"><h4>Roster Practitioner 4</h4></td></tr></table>
+
+
+                   <!-- row 2 -->
+                   <table style="border-collapse: collapse;">
+                     <tr>
+                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                     </tr>
+                   </table>
+ 
+                   <!-- row 3 -->
+                   <table style="border-collapse: collapse;">
+                     <tr>
+                       <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+ 
+                       <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                     </tr>
+                   </table>
+
+                    <!-- row 4 -->
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">License number:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">License issuing body:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">Practitioner’s NPI:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">Supervisor’s NPI:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+
+
+ 
+                  
+                        <table>
+                          <tr style="height: 35px;">
+                            <td style="border: 1px solid black; padding: 5px;">
+                              <span><p>Check here if practitioner is hospital-based: <input type="checkbox"></p></span>
+                            </td>
+                          </tr>
+                        </table>
+                 
+                  
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 36px;">
+                            <td style="width: 30%; padding: 5px;">Practitioner <br>
+                              language(s) spoken: </td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+                  <table style="border-collapse: collapse;">
+                    <tr>
+                      <td style="border: 1px solid black;">
+                        <table>
+                          <tr style="height: 38px;">
+                            <td style="width: 30%; padding: 5px;">Practitioner ethnicity:</td>
+                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                   <!-- table in table (two table) -->
+                   <tr>
+                    <td>
+                      <table style="border-collapse: collapse;">
+                        <tr  style="height: 134px;">
+                          <!-- table1 -->
+                          <td style="width: 60%; border: 1px solid black;">
+                            <table style="border-collapse: collapse;">
+                              <tr>
+                                <td >
+                                  <p style="margin-top: 0px; margin-left: 5px;">Patient acceptance:</p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
+                                </td>
+                            </table>
+
+                            <table style="border-collapse: collapse;">
+                              <tr>
+                                <td>
+                                  <table style="border-collapse: collapse;">
+                                    <tr>
+                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                        <table style="border-collapse: collapse;">
+                                          <tr>
+                                            <td style="width: 30%; padding: 5px;">Lowest age:</td>
+                                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+
+                            <table style="border-collapse: collapse;">
+                              <tr>
+                                <td>
+                                  <table style="border-collapse: collapse;">
+                                    <tr>
+                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                        <table style="border-collapse: collapse;">
+                                          <tr>
+                                            <td style="width: 30%; padding: 5px;">Highest age:</td>
+                                            <td style="width: 70%; padding: 5px;"><p></p></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                       
+                          </td>
+
+                          <!-- table 2 -->
+                          <td style="width: 40%; border: 1px solid black;">
+                          <p style="margin-top: -10px; margin-left: 10px;">Gender Limitation</p>
+                          <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
+                          <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
+                          <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Female only</label></p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                   </tr>
+
+                 
+                
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+</table>
+
+
+
+<!-- page endign log and content -->
+<table style="margin-top:50px ;">
+  <colgroup>
+    <col style="width: 80%;">
+    <col style="width: 20%;">
+</colgroup>
+<tr>
+  <th>
+    <h5 style=" font-family: 'CenturyGothic';  color: 
+#2596be; font-size: 20px;  text-align: left; margin-top:30px ">blueshieldca.com</h5>
+  </th>
+  <th style="text-align: right;">
+    <h5 style="margin-top: 30px;">Page 3/3</h5>
+    <h5>RA-02 (7/23)  </h5>
+  </th>
+</tr>
+  </table>
+
+
+
+
+
+</div>
+
+
 
 
 
