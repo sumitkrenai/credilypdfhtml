@@ -445,10 +445,10 @@
 <tr>
   <td>
       <table style="width: 1px solid black; border-collapse: collapse;">
-          <tr>
-              <td style="width: 50%;">
-                  <table style="border: 1px solid black; border-collapse: collapse;">
-                      <tr>
+          <tr style="height: 50px;">
+              <td style="width: 50%; border: 1px solid ;">
+                  <table style="border: px solid black; border-collapse: collapse;">
+                      <tr style="height: 40px;">
                           <td style="padding: 5px;">Practice <br> 
                             street address:</td>
                           <td style="padding: 5px;"><p></p></td>
@@ -458,27 +458,41 @@
               <td style="width: 25%; border: 1px solid black;">
                 <table style="border-collapse: collapse;">
                   <tr>
-                      <td style="padding: 5px;">City:</td>
+                      <td style="padding: 5px; text-align:left;">City:</td>
                       <td style="padding: 5px;"><p></p></td>
                   </tr>
               </table>
               </td>
 
               <td style="width: 10%; border: 1px solid black;">
-                <table  style="border-collapse: collapse;">
+                <table  style="border-collapse: collapse; margin-top: -5px;">
                     <tr>
-                        <td style="padding: 5px;">State</td>
-                        <td style="padding: 5px;"><p></p></td>
+                        <td style="padding: 5px;">State:</td>
+                       
                     </tr>
+                </table>
+                <table>
+                  <tr>
+                    <td>
+                      <td style="padding: 5px;"><p></p></td>
+                    </td>
+                  </tr>
                 </table>
             </td>
 
             <td style="width: 15%; border: 1px solid black;">
-              <table style="border-collapse: collapse;">
+              <table style="border-collapse: collapse; margin-top: -5px;">
                   <tr>
                       <td style="padding: 5px;">ZIP code:</td>
-                      <td style="padding: 5px;"><p></p></td>
+                     
                   </tr>
+              </table>
+              <table>
+                <tr>
+                  <td>
+                    <td style="padding: 5px;"><p></p></td>
+                  </td>
+                </tr>
               </table>
           </td>
             
@@ -544,7 +558,7 @@
         <td style="width: 40%; border: 1px solid black;">
           <table style="border-collapse: collapse;">
             <tr>
-              <td style="padding: 5px;">Wheelchair access? </td>
+              <td style="padding: 5px;">Wheelchair access? <span style="margin-left: 30px;"><input type="checkbox"> <label for="">Yes</label></span> <span><input type="checkbox"> <label for="">No</label></span> </td>
               <td style="padding: 5px;"> <p></p> </td>
             </tr>
           </table>
@@ -589,7 +603,7 @@
   <td>
     <table style="border: 1px solid black;">
       <tr style="height: 35px;">
-        <td style="width: 30%;">
+        <td style="width: 25%;">
           <table>
             <td style="padding: 5px; width: 30%;">
               <p>Qualified medical interpreter:</p>
@@ -597,34 +611,28 @@
           </table>
         </td>
 
-        <td>
+        <td >
           <table>
             <tr>
-              <td style="padding: 5px;" >
-                <input type="checkbox">
-                <label for="vehicle1">Cantonese</label><br>
-              </td>
-              <td style="padding: 5px;">
-                <input type="checkbox">
-                <label for="vehicle1">Korean</label><br>
-              </td>
-              <td style="padding: 5px;">
-                <input type="checkbox">
-                <label for="vehicle1">Mandarin</label><br>
-              </td style="padding: 5px;">
-              <td style="padding: 5px;">
-                <input type="checkbox">
-                <label for="vehicle1">Russian</label><br>
-              </td>
-         <td style="padding: 5px;"> 
-        <input type="checkbox">
-        <label for="vehicle1">Spanish</label><br>
-      </td>
-      <td style="padding: 5px;">
-        <input type="checkbox">
-        <label for="vehicle1">Vietnamese</label><br>
-      </td>
-
+              
+<span style="margin-left: -20px">
+  <input type="checkbox"><label for="">Cantonese</label>
+</span>
+<span >
+  <input type="checkbox"><label for=""><span style="font-family: sans-serif; font-size: 13px;">K</span>orean</label>
+</span>
+<span >
+  <input type="checkbox"><label for="">Mandarin</label>
+</span>
+<span >
+  <input type="checkbox"><label for="">Russian</label>
+</span>
+<span >
+  <input type="checkbox"><label for="">Spanish</label>
+</span>
+<span>
+  <input type="checkbox"><label for="">Vietnamese</label>
+</span>
             </tr>
           </table>
         </td>
@@ -774,9 +782,9 @@
     <table style="border-collapse: collapse;">
       <tr style="height: 25px;">
         <td style="border: 1px solid black; text-align: center; width: 50%;"> <table> <tr> <td style="padding: 5px; text-align: left;"><p>Address (if different from service location):</p></td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-        <td style="border: 1px solid black; text-align: center;  width: 25%;"> <table> <tr> <td style="padding: 5px; text-align: left;"><p>City</p> </td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-        <td style="border: 1px solid black; text-align: center; width: 10%;"> <table> <tr> <td style="padding: 5px; text-align: left;"> <p>State</p> </td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-        <td style="border: 1px solid black; text-align: center; width: 15%;"> <table> <tr> <td style="padding: 5px; text-align: left;"> <p>ZIP code</p></td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+        <td style="border: 1px solid black; text-align: center;  width: 25%;"> <table> <tr> <td style="padding: 5px; text-align: left;"><p>City:</p> </td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+        <td style="border: 1px solid black; text-align: center; width: 10%;"> <table> <tr> <td style="padding: 5px; text-align: left;"> <p>State:</p> </td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
+        <td style="border: 1px solid black; text-align: center; width: 15%;"> <table> <tr> <td style="padding: 5px; text-align: left;"> <p>ZIP code:</p></td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
       </tr>
     </table>
   </td>
@@ -829,12 +837,12 @@
       <tr>
         <td style="border: 1px solid black;padding: 5px;">
           <p style="margin-top: 10px;">Direct electronic data interchange (EDI) trading partners may receive 835 electronic remittance advices (ERA) directly from Blue Shield / 
-            Blue Shield of California Promise Health Plan</p>
+            Blue Shield of California Promise Health Plan.</p>
             <br>
             <p>
               Authorize a vendor/clearinghouse to receive ERA data to automate your payment posting on your behalf.
 This information will certify that the Third Party named below is authorized to receive the provider electronic remittance advice (also known 
-as the 835). Paper Explanation of Benefits will be discontinued at the time of enrollment
+as the 835). Paper Explanation of Benefits will be discontinued at the time of enrollment.
             </p>
         </td>
       </tr>
@@ -850,7 +858,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
         <td style="border: 1px solid black ; padding: 5px;">
           <span>   <h3><span style="font-family:'Arial'; font-size: 14px;">E</span>RA election: <span style="font-style: italic;">Select and document only one.</span> The third-party vendor/clearinghouse documented below is authorized to receive 
             <span style="font-family: 'Arial'; font-size: 14px;">E</span>RAs on behalf of your provider organization.</h3></span><span><p>The trading partner is enrolled to receive ERA via secure file transfer protocol (SFTP) 
-              directly from Blue Shield/Blue Shield Promise</p></span>
+              directly from Blue Shield/Blue Shield Promise.</p></span>
        
         </td>
       </tr>
@@ -948,9 +956,9 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
       <table style="width: 1px solid black;">
           <tr>
               <td style="width: 60%;">
-                  <table style="border: 1px solid black;">
+                  <table style="border: 1px solid black; border-bottom: 1px solid black;">
                       <tr style="height: 40px;">
-                          <td style="padding: 5px;"><p>Name of technical contact</p></td>
+                          <td style="padding: 5px;"><p>Name of technical contact:</p></td>
                           <td style="padding: 5px;"><p></p></td>
                       </tr>
                   </table>
@@ -1016,7 +1024,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
       that service location can be added using a copy of this template.</h4>
 
 
-<table style="border-collapse: collapse; margin-top: 20px; margin-bottom: 0;">
+<table style="border-collapse: collapse; margin-top:10px; margin-bottom: 0;">
 
   <tr>
     <td>
@@ -1043,7 +1051,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     <tr>
                       <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
 
-                      <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                      <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
@@ -1171,8 +1179,8 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                               <tr>
                                 <td >
                                   <p style="margin-top: 0px; margin-left: 5px;">Patient acceptance:</p>
-                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
-                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Current patients only</label></p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">New and existing patients</label></p>
                                 </td>
                             </table>
 
@@ -1247,7 +1255,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
               <tr>
                 <td>
                    <!-- main heading table -->
-                   <table><tr><td style="border: 1px solid black; padding: 5px;"><h4>Roster Practitioner 2</h4></td></tr></table>
+                   <table><tr><td style="border: 1px solid black; padding: 5px;"><h4>Roster practitioner 2</h4></td></tr></table>
 
 
                    <!-- row 2 -->
@@ -1262,7 +1270,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                      <tr>
                        <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
  
-                       <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                       <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                      </tr>
                    </table>
 
@@ -1388,8 +1396,8 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                               <tr>
                                 <td >
                                   <p style="margin-top: 0px; margin-left: 5px;">Patient acceptance:</p>
-                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
-                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Current patients only</label></p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">New and existing patients</label></p>
                                 </td>
                             </table>
 
@@ -1490,7 +1498,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     <tr>
                       <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
 
-                      <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                      <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
@@ -1618,8 +1626,8 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                               <tr>
                                 <td >
                                   <p style="margin-top: 0px; margin-left: 5px;">Patient acceptance:</p>
-                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
-                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Current patients only</label></p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">New and existing patients</label></p>
                                 </td>
                             </table>
 
@@ -1694,7 +1702,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
               <tr>
                 <td>
                    <!-- main heading table -->
-                   <table><tr><td style="border: 1px solid black; border-top: 0px; padding: 5px;"><h4>Roster Practitioner 4</h4></td></tr></table>
+                   <table><tr><td style="border: 1px solid black; border-top: 0px; padding: 5px;"><h4>Roster practitioner 4</h4></td></tr></table>
 
 
                    <!-- row 2 -->
@@ -1709,7 +1717,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                      <tr>
                        <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
  
-                       <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                       <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                      </tr>
                    </table>
 
@@ -1835,8 +1843,8 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                               <tr>
                                 <td >
                                   <p style="margin-top: 0px; margin-left: 5px;">Patient acceptance:</p>
-                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
-                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Current patients only</label></p>
+                            <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">New and existing patients</label></p>
                                 </td>
                             </table>
 
