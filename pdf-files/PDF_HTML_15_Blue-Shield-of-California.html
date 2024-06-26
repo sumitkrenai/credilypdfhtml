@@ -60,7 +60,7 @@
         font-family: 'FieldworkGeoLight';
         color: black;
         line-height:20px;
-        word-break: break-all;
+        word-break: break-word;
       }
     
 
@@ -78,7 +78,7 @@
       }
 
       h5{
-        font-size: 10px;
+        font-size: 14px;
         font-family: "FieldworkGeoLight";
         color: black;
         line-height:20px;
@@ -801,7 +801,7 @@
 
 
 <tr>
-  <td style="border: 1px solid black;background-color: #f1f1f1;">
+  <td style="border-bottom: 1px solid black;background-color: #f1f1f1;">
     <table >
       <tr>
         <td style="padding: 5px;">
@@ -815,46 +815,54 @@
 
 
 <tr>
-  <td>
+  <td style="border-bottom: 1px solid black;">
       <table>
-          <tr style="height: 25px;">
-              <td style="border: 1px solid black; text-align: center; width: 50%;">
+          <tr>
+              <td style="border-right: 1px solid black; text-align: center; width: 50%;">
                   <table>
                       <tr>
                           <td style="padding: 5px; text-align: left;"><p>Address (if different from service location):</p></td>
                       </tr>
-                      <tr style="height: 35px;">
-                          <td style="padding: 5px;"><p></p></td>
+                      <tr>
+                          <td style="padding: 5px;">
+                            <p style="min-height:10px"></p>
+                          </td>
                       </tr>
                   </table>
               </td>
-              <td style="border: 1px solid black; text-align: center; width: 25%;">
+              <td style="border-right: 1px solid black; text-align: center; width: 25%;">
                   <table>
                       <tr>
                           <td style="padding: 5px; text-align: left;"><p>City:</p></td>
                       </tr>
-                      <tr style="height: 35px;">
-                          <td style="padding: 5px;"><p></p></td>
+                      <tr>
+                          <td style="padding: 5px;">
+                            <p style="min-height:10px"></p>
+                          </td>
                       </tr>
                   </table>
               </td>
-              <td style="border: 1px solid black; text-align: center; width: 10%;">
+              <td style="border-right: 1px solid black; text-align: center; width: 10%;">
                   <table>
                       <tr>
                           <td style="padding: 5px; text-align: left;"><p>State:</p></td>
                       </tr>
-                      <tr style="height: 35px;">
-                          <td style="padding: 5px;"><p></p></td>
+                      <tr>
+                          <td style="padding: 5px;">
+                            <p style="min-height:10px"></p>
+                          </td>
                       </tr>
                   </table>
               </td>
-              <td style="border: 1px solid black; text-align: center; width: 15%;">
+              <td style="text-align: center; width: 15%;">
                   <table>
                       <tr>
                           <td style="padding: 5px; text-align: left;"><p>ZIP code:</p></td>
                       </tr>
-                      <tr style="height: 35px;">
-                          <td style="padding: 5px;"><p></p></td>
+                      <tr>
+                          <td style="padding: 5px;">
+                            <p style="min-height:10px"></p>
+                          </td>
                       </tr>
                   </table>
               </td>
@@ -866,22 +874,22 @@
 
 
 <tr>
-  <td>
+  <td style="border-bottom: 1px solid black;">
       <table >
           <tr>
-              <td style="width: 33%;">
-                  <table style="border: 1px solid black;">
+              <td style="width: 33%;border-right: 1px solid black;">
+                  <table>
                       <tr>
-                          <td style="padding: 5px;">Phone:</td>
-                          <td style="padding: 5px;"><p></p></td>
+                          <td style="padding: 5px;width: 20%;">Phone:</td>
+                          <td style="padding: 5px;width: 80%;"><p></p></td>
                       </tr>
                   </table>
               </td>
               <td style="width: 33%;">
-                <table style="border: 1px solid black;">
+                <table>
                   <tr>
-                      <td style="padding: 5px;">Fax:</td>
-                      <td style="padding: 5px;"><p></p></td>
+                      <td style="padding: 5px;width: 20%;">Fax:</td>
+                      <td style="padding: 5px;width: 80%;"><p></p></td>
                   </tr>
               </table>
               </td>
@@ -892,10 +900,10 @@
 
 
 <tr>
-  <td>
+  <td  style="border-bottom: 1px solid black;background-color: #f1f1f1;">
     <table >
-      <tr style="width: 8px;">
-        <td style="border: 1px solid black ; padding: 5px;">
+      <tr >
+        <td style="padding: 5px;">
           <h3>Paperless remittance advice (replaces paper <span style="font-family:'Arial-medium' ; font-size: 15px;">E</span>OB)</h3>
         </td>
       </tr>
@@ -906,10 +914,10 @@
 
 
 <tr>
-  <td>
+  <td style="border-bottom: 1px solid black;">
     <table>
       <tr>
-        <td style="border: 1px solid black;padding: 5px;">
+        <td style="padding: 5px;">
           <p style="margin-top: 10px;">Direct electronic data interchange (EDI) trading partners may receive 835 electronic remittance advices (ERA) directly from Blue Shield / 
             Blue Shield of California Promise Health Plan.</p>
             <br>
@@ -926,14 +934,13 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
 <tr>
-  <td>
+  <td style="border-bottom: 1px solid black;background-color: #f1f1f1;">
     <table >
-      <tr style="width: 8px;">
-        <td style="border: 1px solid black ; padding: 5px;">
-          <span>   <h3><span style="font-family:'Arial'; font-size: 14px;">E</span>RA election: <span style="font-style: italic;">Select and document only one.</span> The third-party vendor/clearinghouse documented below is authorized to receive 
-            <span style="font-family: 'Arial'; font-size: 14px;">E</span>RAs on behalf of your provider organization.</h3></span><span><p>The trading partner is enrolled to receive ERA via secure file transfer protocol (SFTP) 
+      <tr>
+        <td style="padding: 5px;">
+          <span><h3><span style="font-family:'Arial-bold'; ">E</span>RA election: <span style="font-style: italic;">Select and document only one.</span> The third-party vendor/clearinghouse documented below is authorized to receive 
+            <span style="font-family: 'Arial-bold'; ">E</span>RAs on behalf of your provider <span style="font-family: 'Arial-bold'; ">organization.</span></h3></span><span><p>The trading partner is enrolled to receive ERA via secure file transfer protocol (SFTP) 
               directly from Blue Shield/Blue Shield Promise.</p></span>
-       
         </td>
       </tr>
     </table>
@@ -944,31 +951,31 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
 <tr>
-  <td>
-      <table style="width: 1px solid black;">
+  <td style="border-bottom: 1px solid black;">
+      <table>
           <tr>
-              <td style="width: 55%;">
-                  <table style="border: 1px solid black;">
-                      <tr style="height: 40px;">
-                          <td style="padding: 5px;">Name:</td>
-                          <td style="padding: 5px;"><p></p></td>
+              <td style="width: 55%;border-right: 1px solid black;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px;width: 20%;">Name:</td>
+                          <td style="padding: 5px;width: 80%;"><p></p></td>
                       </tr>
                   </table>
               </td>
-              <td style="width: 25%;">
-                <table style="border: 1px solid black;">
-                  <tr style="height: 40px;">
-                      <td style="padding: 5px;">Phone:</td>
-                      <td style="padding: 5px;"><p></p></td>
+              <td style="width: 25%;border-right: 1px solid black;">
+                <table>
+                  <tr>
+                      <td style="padding: 5px;width: 30%;">Phone:</td>
+                      <td style="padding: 5px;width: 70%;"><p></p></td>
                   </tr>
               </table>
               </td>
 
               <td style="width: 25%;">
-                <table style="border: 1px solid black;">
-                    <tr style="height: 40px;">
-                        <td style="padding: 5px;">Fax:</td>
-                        <td style="padding: 5px;"><p></p></td>
+                <table>
+                    <tr>
+                        <td style="padding: 5px;width: 20%;">Fax:</td>
+                        <td style="padding: 5px;width: 80%;"><p></p></td>
                     </tr>
                 </table>
             </td>
@@ -981,40 +988,44 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
 <tr>
-  <td>
-      <table style="width: 1px solid black;">
+  <td style="border-bottom: 1px solid black;">
+      <table>
           <tr>
-              <td style="width: 50%;">
-                  <table style="border: 1px solid black;">
-                      <tr style="height: 40px;">
-                          <td style="padding: 5px;"><p>Street address:</p></td>
-                          <td style="padding: 5px;"><p></p></td>
+              <td style="width: 50%;border-right: 1px solid black;vertical-align: top;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px;width: 30%;"><p>Street address:</p></td>
+                          <td style="padding: 5px;width: 70%;"><p></p></td>
                       </tr>
                   </table>
               </td>
-              <td style="width: 25%;">
-                <table style="border: 1px solid black;">
-                  <tr style="height: 40px;">
-                      <td style="padding: 5px;">City:</td>
-                      <td style="padding: 5px;"><p></p></td>
+              <td style="width: 25%;border-right: 1px solid black;vertical-align: top;">
+                <table>
+                  <tr>
+                      <td style="padding: 5px;width: 30%;">City:</td>
+                      <td style="padding: 5px;width: 70%;"><p></p></td>
                   </tr>
               </table>
               </td>
 
-              <td style="width: 10%;">
-                <table style="border: 1px solid black;">
-                    <tr style="height: 40px;">
-                        <td style="padding: 5px;">State:</td>
-                        <td style="padding: 5px;"><p></p></td>
+              <td style="width: 10%;border-right: 1px solid black;vertical-align: top;">
+                <table>
+                    <tr>
+                        <td style="padding: 5px;width: 100%;">
+                          State:
+                          <p style="min-height:20px"></p>
+                        </td>
                     </tr>
                 </table>
             </td>
 
-            <td style="width: 15%;">
-              <table style="border: 1px solid black;">
-                  <tr style="height: 40px;">
-                      <td style="padding: 5px;">ZIP code:</td>
-                      <td style="padding: 5px;"><p></p></td>
+            <td style="width: 15%;vertical-align: top;">
+              <table>
+                  <tr>
+                      <td style="padding: 5px;width: 100%;">
+                        ZIP code:
+                        <p style="min-height:20px"></p>
+                      </td>
                   </tr>
               </table>
           </td>
@@ -1026,22 +1037,22 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
 <tr>
-  <td>
-      <table style="width: 1px solid black;">
+  <td style="border-bottom: 1px solid black;">
+      <table>
           <tr>
               <td style="width: 60%;">
-                  <table style="border: 1px solid black; border-bottom: 1px solid black;">
-                      <tr style="height: 40px;">
-                          <td style="padding: 5px;"><p>Name of technical contact:</p></td>
-                          <td style="padding: 5px;"><p></p></td>
+                  <table style=" border-right: 1px solid black;">
+                      <tr>
+                          <td style="padding: 5px;width: 30%;"><p>Name of technical contact:</p></td>
+                          <td style="padding: 5px;width: 70%;"><p></p></td>
                       </tr>
                   </table>
               </td>
               <td style="width: 40%;">
-                <table style="border: 1px solid black;">
-                  <tr style="height: 40px;">
-                      <td style="padding: 5px;">Email address:</td>
-                      <td style="padding: 5px;"><p></p></td>
+                <table >
+                  <tr>
+                      <td style="padding: 5px;width: 30%;">Email address:</td>
+                      <td style="padding: 5px;width: 70%;"><p></p></td>
                   </tr>
               </table>
               </td>           
@@ -1105,34 +1116,41 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
       <table >
         <tr>
           <!-- table 1 -->
-          <td style="width: 50%; border: 1px solid black">
+          <td style="width: 50%; border: 1px solid black;border-bottom:none;">
             <table >
               <tr>
                 <td>
                   <!-- main heading table -->
-                  <table><tr><td style="border: 1px solid black; padding: 5px;"><h4>Roster Practitioner 1</h4></td></tr></table>
+                  <table style="background-color: #f1f1f1;">
+                    <tr>
+                        <td style="border-bottom: 1px solid black; padding: 5px;">
+                            <h4>Roster Practitioner <span style="font-family: 'Arial-medium';">1</span></h4>
+                        </td>
+                    </tr>
+                </table>
+                
 
 
                   <!-- row 2 -->
                   <table >
                     <tr>
-                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
                   <!-- row 3 -->
                   <table >
                     <tr>
-                      <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black;border-right: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
 
-                      <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
                   <!-- row 4 -->
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">License number:</td>
@@ -1145,7 +1163,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">License issuing body:</td>
@@ -1158,7 +1176,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">Practitioner’s NPI:</td>
@@ -1172,14 +1190,14 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">Supervisor’s NPI:</td>
@@ -1194,7 +1212,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   
                   <table >
                     <tr>
-                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
@@ -1204,7 +1222,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   
                         <table>
                           <tr style="height: 35px;">
-                            <td style="border: 1px solid black; padding: 5px;">
+                            <td style="border-bottom: 1px solid black; padding: 5px;">
                               <span><p>Check here if practitioner is hospital-based: <input type="checkbox"></p></span>
                             </td>
                           </tr>
@@ -1214,7 +1232,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">Practitioner <br>
@@ -1229,7 +1247,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 38px;">
                             <td style="width: 30%; padding: 5px;">Practitioner ethnicity:</td>
@@ -1248,7 +1266,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                       <table >
                         <tr  style="height: 134px;">
                           <!-- table1 -->
-                          <td style="width: 60%; border: 1px solid black;">
+                          <td style="width: 60%; border-bottom: 1px solid black;">
                             <table >
                               <tr>
                                 <td >
@@ -1263,7 +1281,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                                 <td>
                                   <table >
                                     <tr>
-                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                      <td style="border-bottom: 1px solid black; border-top: 1px solid black; ">
                                         <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Lowest age:</td>
@@ -1282,7 +1300,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                                 <td>
                                   <table >
                                     <tr>
-                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                      <td style=" ">
                                         <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Highest age:</td>
@@ -1299,7 +1317,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                           </td>
 
                           <!-- table 2 -->
-                          <td style="width: 40%; border: 1px solid black; ;">
+                          <td style="width: 40%; border-left: 1px solid black;border-bottom: 1px solid black;vertical-align: top;padding-top: 14px;">
                           <p style="margin-top: -10px; margin-left: 10px;">Gender Limitation</p>
                           <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
                           <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
@@ -1324,34 +1342,42 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
           <!-- table 2 -->
-          <td style="width: 50%; border: 1px solid black; padding: px;">
-            <table>
+          <!-- table 1 -->
+          <td style="width: 50%; border: 1px solid black;border-bottom:none;">
+            <table >
               <tr>
                 <td>
-                   <!-- main heading table -->
-                   <table><tr><td style="border: 1px solid black; padding: 5px;"><h4>Roster practitioner 2</h4></td></tr></table>
+                  <!-- main heading table -->
+                  <table style="background-color: #f1f1f1;">
+                    <tr>
+                        <td style="border-bottom: 1px solid black; padding: 5px;">
+                            <h4>Roster Practitioner <span style="font-family: 'Arial-medium';">2</span></h4>
+                        </td>
+                    </tr>
+                </table>
+                
 
 
-                   <!-- row 2 -->
-                   <table >
-                     <tr>
-                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
-                     </tr>
-                   </table>
- 
-                   <!-- row 3 -->
-                   <table >
-                     <tr>
-                       <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
- 
-                       <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
-                     </tr>
-                   </table>
-
-                    <!-- row 4 -->
+                  <!-- row 2 -->
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+                  <!-- row 3 -->
+                  <table >
+                    <tr>
+                      <td style="border-bottom: 1px solid black;border-right: 1px solid black;text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+
+                      <td style="border-bottom: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+                  <!-- row 4 -->
+                  <table >
+                    <tr>
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">License number:</td>
@@ -1364,7 +1390,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">License issuing body:</td>
@@ -1377,7 +1403,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">Practitioner’s NPI:</td>
@@ -1391,14 +1417,14 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">Supervisor’s NPI:</td>
@@ -1413,7 +1439,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   
                   <table >
                     <tr>
-                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
@@ -1423,7 +1449,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   
                         <table>
                           <tr style="height: 35px;">
-                            <td style="border: 1px solid black; padding: 5px;">
+                            <td style="border-bottom: 1px solid black; padding: 5px;">
                               <span><p>Check here if practitioner is hospital-based: <input type="checkbox"></p></span>
                             </td>
                           </tr>
@@ -1433,7 +1459,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">Practitioner <br>
@@ -1448,7 +1474,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 38px;">
                             <td style="width: 30%; padding: 5px;">Practitioner ethnicity:</td>
@@ -1459,13 +1485,15 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     </tr>
                   </table>
 
-                   <!-- table in table (two table) -->
+
+
+                  <!-- table in table (two table) -->
                    <tr>
                     <td>
                       <table >
                         <tr  style="height: 134px;">
                           <!-- table1 -->
-                          <td style="width: 60%; border: 1px solid black;">
+                          <td style="width: 60%; border-bottom: 1px solid black;">
                             <table >
                               <tr>
                                 <td >
@@ -1480,7 +1508,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                                 <td>
                                   <table >
                                     <tr>
-                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                      <td style="border-bottom: 1px solid black;  border-top: 1px solid black;">
                                         <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Lowest age:</td>
@@ -1499,7 +1527,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                                 <td>
                                   <table >
                                     <tr>
-                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                      <td style=" ">
                                         <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Highest age:</td>
@@ -1516,7 +1544,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                           </td>
 
                           <!-- table 2 -->
-                          <td style="width: 40%; border: 1px solid black;">
+                          <td style="width: 40%; border-left: 1px solid black;border-bottom: 1px solid black;vertical-align: top;padding-top: 14px;">
                           <p style="margin-top: -10px; margin-left: 10px;">Gender Limitation</p>
                           <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
                           <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
@@ -1527,8 +1555,8 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     </td>
                    </tr>
 
-                 
-                
+
+
                 </td>
               </tr>
             </table>
@@ -1545,41 +1573,48 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 <!-- bottom 2 table (identical) -->
 
-<table style= margin-top:0px; border-top: 0px;">
+<table style= "margin-top:0px; border-top: 0px;">
 
   <tr>
     <td>
       <table >
         <tr>
           <!-- table 1 -->
-          <td style="width: 50%; border: 1px solid black ; border-top: 0px;">
+          <td style="width: 50%; border: 1px solid black;border-top:none;border-bottom:none;">
             <table >
               <tr>
                 <td>
                   <!-- main heading table -->
-                  <table><tr><td style="border: 1px solid black; border-top: 0px; padding: 5px;"><h4>Roster Practitioner 3</h4></td></tr></table>
+                  <table style="background-color: #f1f1f1;">
+                    <tr>
+                        <td style="border-bottom: 1px solid black; padding: 5px;">
+                            <h4>Roster Practitioner <span style="font-family: 'Arial-medium';">3</span></h4>
+                        </td>
+                    </tr>
+                </table>
+                
 
 
                   <!-- row 2 -->
                   <table >
                     <tr>
-                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
                   <!-- row 3 -->
                   <table >
                     <tr>
-                      <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black;border-right: 1px solid black;text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
 
-                      <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
                   <!-- row 4 -->
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">License number:</td>
@@ -1592,7 +1627,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">License issuing body:</td>
@@ -1605,7 +1640,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">Practitioner’s NPI:</td>
@@ -1619,14 +1654,14 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">Supervisor’s NPI:</td>
@@ -1641,7 +1676,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   
                   <table >
                     <tr>
-                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
@@ -1651,7 +1686,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   
                         <table>
                           <tr style="height: 35px;">
-                            <td style="border: 1px solid black; padding: 5px;">
+                            <td style="border-bottom: 1px solid black; padding: 5px;">
                               <span><p>Check here if practitioner is hospital-based: <input type="checkbox"></p></span>
                             </td>
                           </tr>
@@ -1661,7 +1696,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">Practitioner <br>
@@ -1676,7 +1711,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 38px;">
                             <td style="width: 30%; padding: 5px;">Practitioner ethnicity:</td>
@@ -1695,7 +1730,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                       <table >
                         <tr  style="height: 134px;">
                           <!-- table1 -->
-                          <td style="width: 60%; border: 1px solid black;">
+                          <td style="width: 60%; border-bottom: 1px solid black;">
                             <table >
                               <tr>
                                 <td >
@@ -1710,7 +1745,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                                 <td>
                                   <table >
                                     <tr>
-                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                      <td style="border-bottom: 1px solid black;  border-top: 1px solid black;">
                                         <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Lowest age:</td>
@@ -1729,7 +1764,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                                 <td>
                                   <table >
                                     <tr>
-                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                      <td style=" ">
                                         <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Highest age:</td>
@@ -1746,7 +1781,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                           </td>
 
                           <!-- table 2 -->
-                          <td style="width: 40%; border: 1px solid black;">
+                          <td style="width: 40%; border-left: 1px solid black;border-bottom: 1px solid black;vertical-align: top;padding-top: 14px;">
                           <p style="margin-top: -10px; margin-left: 10px;">Gender Limitation</p>
                           <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
                           <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
@@ -1771,34 +1806,41 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
           <!-- table 2 -->
-          <td style="width: 50%; border: 1px solid black; padding: px; border-top: 0px;">
-            <table>
+          <td style="width: 50%; border: 1px solid black;border-top:none;border-bottom:none;">
+            <table >
               <tr>
                 <td>
-                   <!-- main heading table -->
-                   <table><tr><td style="border: 1px solid black; border-top: 0px; padding: 5px;"><h4>Roster practitioner 4</h4></td></tr></table>
+                  <!-- main heading table -->
+                  <table style="background-color: #f1f1f1;">
+                    <tr>
+                        <td style="border-bottom: 1px solid black; padding: 5px;">
+                            <h4>Roster Practitioner <span style="font-family: 'Arial-medium';">4</span></h4>
+                        </td>
+                    </tr>
+                </table>
+                
 
 
-                   <!-- row 2 -->
-                   <table >
-                     <tr>
-                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
-                     </tr>
-                   </table>
- 
-                   <!-- row 3 -->
-                   <table >
-                     <tr>
-                       <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
- 
-                       <td style="border: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
-                     </tr>
-                   </table>
-
-                    <!-- row 4 -->
+                  <!-- row 2 -->
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+                  <!-- row 3 -->
+                  <table >
+                    <tr>
+                      <td style="border-bottom: 1px solid black;border-right: 1px solid black;text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+
+                      <td style="border-bottom: 1px solid black; text-align: center; width: 20%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Degree:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                    </tr>
+                  </table>
+
+                  <!-- row 4 -->
+                  <table >
+                    <tr>
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">License number:</td>
@@ -1811,7 +1853,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">License issuing body:</td>
@@ -1824,7 +1866,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">Practitioner’s NPI:</td>
@@ -1838,14 +1880,14 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">Supervisor’s NPI:</td>
@@ -1860,7 +1902,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   
                   <table >
                     <tr>
-                      <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
+                      <td style="border-bottom: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
@@ -1870,7 +1912,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   
                         <table>
                           <tr style="height: 35px;">
-                            <td style="border: 1px solid black; padding: 5px;">
+                            <td style="border-bottom: 1px solid black; padding: 5px;">
                               <span><p>Check here if practitioner is hospital-based: <input type="checkbox"></p></span>
                             </td>
                           </tr>
@@ -1880,7 +1922,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 36px;">
                             <td style="width: 30%; padding: 5px;">Practitioner <br>
@@ -1895,7 +1937,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
                   <table >
                     <tr>
-                      <td style="border: 1px solid black;">
+                      <td style="border-bottom: 1px solid black;">
                         <table>
                           <tr style="height: 38px;">
                             <td style="width: 30%; padding: 5px;">Practitioner ethnicity:</td>
@@ -1906,13 +1948,15 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     </tr>
                   </table>
 
-                   <!-- table in table (two table) -->
+
+
+                  <!-- table in table (two table) -->
                    <tr>
                     <td>
                       <table >
                         <tr  style="height: 134px;">
                           <!-- table1 -->
-                          <td style="width: 60%; border: 1px solid black;">
+                          <td style="width: 60%; border-bottom: 1px solid black;">
                             <table >
                               <tr>
                                 <td >
@@ -1927,7 +1971,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                                 <td>
                                   <table >
                                     <tr>
-                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                      <td style="border-bottom: 1px solid black;  border-top: 1px solid black;">
                                         <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Lowest age:</td>
@@ -1946,7 +1990,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                                 <td>
                                   <table >
                                     <tr>
-                                      <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
+                                      <td style=" ">
                                         <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Highest age:</td>
@@ -1963,7 +2007,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                           </td>
 
                           <!-- table 2 -->
-                          <td style="width: 40%; border: 1px solid black;">
+                          <td style="width: 40%; border-left: 1px solid black;border-bottom: 1px solid black;vertical-align: top;padding-top: 14px;">
                           <p style="margin-top: -10px; margin-left: 10px;">Gender Limitation</p>
                           <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">N/A</label></p>
                           <p style="margin-left: -10px; margin-top: 5px;"><input type="checkbox"><label for="">Male only</label></p>
@@ -1974,8 +2018,8 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     </td>
                    </tr>
 
-                 
-                
+
+
                 </td>
               </tr>
             </table>
