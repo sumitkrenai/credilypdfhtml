@@ -53,13 +53,14 @@
       table {
         width: 100%;
         border-spacing: 0;
+        border-collapse: collapse;
       }
      body{
         font-size: 16px;
         font-family: 'FieldworkGeoLight';
         color: black;
         line-height:20px;
-        
+        word-break: break-all;
       }
     
 
@@ -143,7 +144,7 @@
         <br>
         Attach all required documentation, as outlined below, and 
         return this form to Blue Shield and/or Blue Shield Promise 
-        via email: <span style="color: blue;">@blueshieldca.com</span>. This form 
+        via email: <a href="blueshieldca.com" style="color: blue;text-decoration: none;">@blueshieldca.com</a>. This form 
         may be completed electronically</p>
 
         <h4 style="margin-top: 20px; text-align: left; font-weight: bolder; "> <strong>Required Documentation</strong></h4>
@@ -201,7 +202,7 @@
   Shield and/or Blue Shield Promise provider network.
   For information about joining either network, please 
   contact our Provider Information and Enrollment 
-  Department via email at <span style="color: blue;"> BSCProviderInfo@blueshieldca.com</span>
+  Department via email at <a href="mailto:bscproviderInfo@blueshieldca.com" style="color: blue;text-decoration: none;"> BSCProviderInfo@blueshieldca.com</a>
  </p>
 
 <p style="text-align: left; margin-top:13px; margin-left:60px">In accordance with regulatory requirements, Blue Shield 
@@ -289,28 +290,28 @@
     <p style="font-family:'FieldworkGeoDemibold' ;  font-size:18px;  margin-top: 10px; margin-bottom: 5px;">Please type or print information in all fields.</p>
 
 
-    <table style="border-collapse: collapse; margin-top: 12px; border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black;">
-      <tr style="width: 1px solid black; border-bottom: 0px;">
-          <td style="border: 1; ">
-              <table style="border-collapse: collapse;">
+    <table style="border:1px solid #111; margin-top: 12px;border-bottom: 0;">
+      <tr>
+          <td style="border-bottom:1px solid #111;">
+              <table >
                   <tr>
-                      <td style="width: 50%;">
-                          <table style="border: 1px solid black; border-collapse: collapse;">
+                      <td style="width: 50%;border-right:1px solid #111;">
+                          <table>
                               <tr >
-                                  <td style="padding: 5px;">Provider name/ <br>
+                                  <td style="padding: 5px;width: 40%;">Provider name/ <br>
                                     doing business as (dba):</td>
-                                  <td style="padding: 5px;">
+                                  <td style="padding: 5px;width: 60%;">
                                     <p></p>
                                   </td>
                               </tr>
                           </table>
                       </td>
                       <td style="width: 50%;">
-                        <table style="border: 1px solid black; border-collapse: collapse;"  >
+                        <table>
                           <tr>
-                              <td style="padding: 5px;">Legal entity <br>
+                              <td style="padding: 5px;width: 30%;">Legal entity <br>
                                 name:</td>
-                              <td style="padding: 5px;"><p></p></td>
+                              <td style="padding: 5px;width: 70%;"><p></p></td>
                           </tr>
                       </table>
                       </td>
@@ -321,28 +322,30 @@
 
 
       <tr>
-        <td>
-            <table style="width: 1px solid black; border-collapse: collapse;">
+        <td  style="border-bottom:1px solid #111;">
+            <table >
                 <tr>
                     <!-- column partition -->
-                    <td style="width: 50%;">
+                    <td style="width: 50%; border-right:1px solid #111;">
                         <!-- content Table> -->
-                        <table style="border: 1px solid black; border-collapse: collapse;">
+                        <table>
                             <tr>
-                                <td style="padding: 5px;">EIN/TIN (attach pre-printed <br>
+                                <td style="padding: 5px;width: 45%;">EIN/TIN (attach pre-printed <br>
                                   tax document/W-9):</td>
-                                <td style="padding: 5px;"><p></p></td>
+                                <td style="padding: 5px;width: 55%;">
+                                  <p></p>
+                                </td>
                             </tr>
                         </table>
                         <!-- content Table> -->
                     </td>
                     <!-- column partition -->
                     <td style="width: 50%;">
-                      <table style="border: 1px solid black; border-collapse: collapse;">
+                      <table>
                         <tr>
-                            <td style="padding: 5px;">National provider <br>
+                            <td style="padding: 5px;width: 35%;">National provider <br>
                               identifier (NPI):</td>
-                            <td style="padding: 5px;"><p></p></td>
+                            <td style="padding: 5px;width: 65%;"><p></p></td>
                         </tr>
                     </table>
                     </td>
@@ -356,35 +359,36 @@
 
 
     <tr>
-      <td>
-          <table style="width: 1px solid black;  border-collapse: collapse;">
+      <td style="border-bottom:1px solid #111;">
+          <table>
               <tr>
-                  <td style="width: 33%;">
-                      <table style="border: 1px solid black;">
+                  <td style="width: 33%;border-right:1px solid #111;">
+                      <table>
                           <tr>
-                              <td style="padding: 5px;">Primary specialty/ <br>
+                              <td style="padding: 5px;width: 45%;">Primary specialty/ <br>
                                 type of service</td>
-                              <td style="padding: 5px;"><p></p></td>
+                              <td style="padding: 5px;width: 55%;"><p></p></td>
                           </tr>
                       </table>
                   </td>
-                  <td style="width: 33%; ">
-                    <table style="border: 1px solid black; border-collapse: collapse;">
+                  <td style="width: 33%; border-right:1px solid #111;">
+                    <table>
                       <tr>
-                          <td style="padding: 5px;">License/certification/ <br>
-                            permit issuing body:
-                            identifier (NPI):</td>
-                          <td style="padding: 5px;"><p></p></td>
+                          <td style="padding: 5px;width: 75%;">License/certification/ <br>
+                            permit issuing body:</td>
+                          <td style="padding: 5px;width: 25%;"><p></p></td>
                       </tr>
                   </table>
                   </td>
 
                   <td style="width: 33%;">
-                    <table style="border: 1px solid black;">
+                    <table>
                         <tr>
-                            <td style="padding: 5px;">License/certification number <br>
-                              (attach copy of document)</td>
-                            <td style="padding: 5px;"><p></p></td>
+                            <td style="padding: 5px;width: 60%;">License/certification number <br>
+                              (attach copy of document):</td>
+                            <td style="padding: 5px;width: 40%;">
+                              <p></p>
+                            </td>
                         </tr>
                     </table>
                 </td>
@@ -397,31 +401,22 @@
 
 
   <tr>
-    <td>
+    <td style="border-bottom: 1px solid black;">
         <!-- main column -->
-        <table style="border: 1px solid black; border-collapse: collapse;">
-            <tr style="height: 30px;">
+        <table>
+            <tr>
                 <!-- column partition -->
-                <td style="width: 60%; border: 1px solid black; ">
-                    <!-- content Table> -->
-                    <table style="border-collapse: collapse;">
-                        <tr>
-                            <td style="width: 50%; padding: 5px;">Patient visit options (all that apply):</td>
-                            <td><p> 
-                              <span style="margin-left: -100px;"><input type="checkbox">Telehealth visits</span>
-                              <span style="margin-left: 20px;"><input type="checkbox" value="hello">In-person visits</span>
-                            </p>
-                          </td>
-                        </tr>
-                    </table>
-                    <!-- content Table> -->
+                <td style="width: 60%; border-right: 1px solid black;padding: 5px; ">
+                  Patient visit options (all that apply):
+                  <span ><input type="checkbox">Telehealth visits</span>
+                  <span ><input type="checkbox" value="hello">In-person visits</span>
                 </td>
                 <!-- column partition -->
                 <td style="width: 40%;">
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
-                        <td style="padding: 5px;">Website URL:</td>
-                        <td style="padding: 5px;"><p></p></td>
+                        <td style="width: 30%;padding: 5px;">Website URL:</td>
+                        <td style="width: 70%;padding: 5px;"><p></p></td>
                     </tr>
                 </table>
                 </td>    
@@ -432,10 +427,12 @@
 
 
 <tr>
-  <td>
-    <table style="border: 1px solid black; height: 40px; border-collapse: collapse;">
-      <tr style="height: 35px;">
-        <td style="padding: 5px;"> <h4 style="font-size: 16px;">Provide service location address below. Additional service location(s) for your provider group/facility will require a separate application. </h4></td>
+  <td style="border-bottom: 1px solid black;background-color: #f1f1f1;">
+    <table>
+      <tr>
+        <td style="padding: 5px;"> 
+          <h4 style="font-size: 16px;">Provide service location address below. Additional service location(s) for your provider group/facility will require a separate application. </h4>
+        </td>
       </tr>
     </table>
   </td>
@@ -445,56 +442,45 @@
 
 
 <tr>
-  <td>
-      <table style="width: 1px solid black; border-collapse: collapse;">
-          <tr style="height: 50px;">
-              <td style="width: 50%; border: 1px solid ;">
-                  <table style="border: px solid black; border-collapse: collapse;">
-                      <tr style="height: 40px;">
-                          <td style="padding: 5px;">Practice <br> 
+  <td style="border-bottom: 1px solid black;">
+      <table >
+          <tr>
+              <td style="width: 50%; border-right: 1px solid #111;vertical-align: top;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px;width: 30%;">Practice <br> 
                             street address:</td>
-                          <td style="padding: 5px;"><p></p></td>
+                          <td style="padding: 5px;width: 70%;"><p></p></td>
                       </tr>
                   </table>
               </td>
-              <td style="width: 25%; border: 1px solid black;">
-                <table style="border-collapse: collapse;">
+              <td style="width: 25%; border-right: 1px solid black;vertical-align: top;">
+                <table >
                   <tr>
-                      <td style="padding: 5px; text-align:left;">City:</td>
-                      <td style="padding: 5px;"><p></p></td>
+                      <td style="padding: 5px; width: 20%;">City:</td>
+                      <td style="padding: 5px;width: 80%;"><p></p></td>
                   </tr>
               </table>
               </td>
 
-              <td style="width: 10%; border: 1px solid black;">
-                <table  style="border-collapse: collapse; margin-top: -5px;">
+              <td style="width: 10%; border-right: 1px solid black;vertical-align: top;">
+                <table >
                     <tr>
-                        <td style="padding: 5px;">State:</td>
-                       
+                        <td style="padding: 5px;width: 100%;">State:
+                          <p></p>
+                        </td>
                     </tr>
-                </table>
-                <table>
-                  <tr>
-                    <td>
-                      <td style="padding: 5px;"><p></p></td>
-                    </td>
-                  </tr>
                 </table>
             </td>
 
-            <td style="width: 15%; border: 1px solid black;">
-              <table style="border-collapse: collapse; margin-top: -5px;">
-                  <tr>
-                      <td style="padding: 5px;">ZIP code:</td>
-                     
-                  </tr>
-              </table>
+            <td style="width: 15%;vertical-align: top;">
               <table>
-                <tr>
-                  <td>
-                    <td style="padding: 5px;"><p></p></td>
-                  </td>
-                </tr>
+                  <tr>
+                      <td style="padding: 5px;width: 100%;">
+                        ZIP code:
+                        <p></p>
+                      </td>
+                  </tr>
               </table>
           </td>
             
@@ -506,34 +492,36 @@
 
 
 <tr>
-  <td>
-      <table style="width: 1px solid black;">
+  <td style="border-bottom: 1px solid black;">
+      <table>
           <tr>
-              <td style="width: 33%;">
-                  <table style="border: 1px solid black;">
+              <td style="width: 33%;border-right:1px solid #111;">
+                  <table>
                       <tr>
-                          <td style="padding: 5px;">Location appointment <br>
+                          <td style="padding: 5px;width: 50%;">Location appointment <br>
                             phone number:</td>
-                          <td style="padding: 5px;"><p></p></td>
+                          <td style="padding: 5px;width: 50%;">
+                            <p></p>
+                          </td>
                       </tr>
                   </table>
               </td>
-              <td style="width: 33%;">
-                <table style="border: 1px solid black;">
+              <td style="width: 33%;border-right:1px solid #111;">
+                <table>
                   <tr>
-                      <td style="padding: 5px;">Location <br> 
+                      <td style="padding: 5px;width: 35%;">Location <br> 
                         fax number:</td>
-                      <td style="padding: 5px;"><p></p></td>
+                      <td style="padding: 5px;width: 65%;"><p></p></td>
                   </tr>
               </table>
               </td>
 
               <td style="width: 33%;">
-                <table style="border: 1px solid black;">
+                <table>
                     <tr>
-                        <td style="padding: 5px;">After hours <br>
+                        <td style="padding: 5px;width: 60%;">After hours <br>
                           phone numberif applicable:</td>
-                        <td style="padding: 5px;"><p></p></td>
+                        <td style="padding: 5px;width: 40%;"><p></p></td>
                     </tr>
                 </table>
             </td>
@@ -546,19 +534,19 @@
 
 
 <tr>
-  <td>
+  <td  style="border-bottom: 1px solid black;">
     <table>
-      <tr style="height: 30px;">
-        <td style="width: 60%; border: 1px solid black;">
-          <table style="border-collapse: collapse;">
+      <tr>
+        <td style="width: 60%; border-right: 1px solid black;">
+          <table >
             <tr>
               <td style="padding: 5px;">Provider Group/Facility Business email:</td>
               <td style="padding: 5px;"><p></p></td>
             </tr>
           </table>
         </td>
-        <td style="width: 40%; border: 1px solid black;">
-          <table style="border-collapse: collapse;">
+        <td style="width: 40%;">
+          <table >
             <tr>
               <td style="padding: 5px;">Wheelchair access? <span style="margin-left: 30px;"><input type="checkbox"> <label for="">Yes</label></span> <span><input type="checkbox"> <label for="">No</label></span> </td>
               <td style="padding: 5px;"> <p></p> </td>
@@ -572,88 +560,13 @@
 
 
 <tr>
-  <table style="border-collapse: collapse; border-left: 1px solid black;">
-    <td>
-      <tr style="height: 28px;">
-        <td style="border: 1px solid black; padding: 5px; font-family: 'FieldworkGeoDemibold';"><p>Office days and hours (complete all days, using N/A if not available): </p></td>
-      </tr>
-    </td>
-  </table>
-</tr>
-
-
-
-<tr>
-  <td>
-    <table style="border-collapse: collapse;">
-      <tr>
-        <td style="border: 1px solid black; text-align: center; width: 14%;"> <table> <tr> <td style="padding: 5px;"> Sunday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-        <td style="border: 1px solid black; text-align: center;  width: 14.5%;"> <table> <tr> <td style="padding: 5px;"> Monday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-        <td style="border: 1px solid black; text-align: center; width: 14.5%;"> <table> <tr> <td style="padding: 5px;"> Tuesday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-        <td style="border: 1px solid black; text-align: center; width: 14.5%;"> <table> <tr> <td style="padding: 5px;"> Wednesday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-        <td style="border: 1px solid black; text-align: center; width: 14.5%;"> <table> <tr> <td style="padding: 5px;"> Thursday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-        <td style="border: 1px solid black; text-align: center; width: 15%;"> <table> <tr> <td style="padding: 5px;"> Friday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-        <td style="border: 1px solid black; text-align: center; width: 14%;"> <table> <tr> <td style="padding: 5px;"> Saturday</td></tr> <tr style="height: 25px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-      </tr>
-    </table>
-  </td>
-</tr>
-
-
-
-<tr >
-  <td>
-    <table style="border: 1px solid black;">
-      <tr style="height: 35px;">
-        <td style="width: 25%;">
-          <table>
-            <td style="padding: 5px; width: 30%;">
-              <p>Qualified medical interpreter:</p>
-            </td>
-          </table>
-        </td>
-
-        <td >
-          <table>
-            <tr>
-              
-<span style="margin-left: -20px">
-  <input type="checkbox"><label for="">Cantonese</label>
-</span>
-<span >
-  <input type="checkbox"><label for=""><span style="font-family: sans-serif; font-size: 13px;">K</span>orean</label>
-</span>
-<span >
-  <input type="checkbox"><label for="">Mandarin</label>
-</span>
-<span >
-  <input type="checkbox"><label for="">Russian</label>
-</span>
-<span >
-  <input type="checkbox"><label for="">Spanish</label>
-</span>
-<span>
-  <input type="checkbox"><label for="">Vietnamese</label>
-</span>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </td>
-</tr>
-
-
-
-
-<tr>
-  <td style="border: 1px solid black;">
-    <table style="border: 1px solid black;">
-      <tr>
-        <td>
-          <table> <tr style="height: 40px;"> <td style="padding: 5px;"><p style="margin-top: -18px;">Non-roster member languages: </p></td></tr><tr><td style="padding: 5px;"><p></p></td></tr></table>
-        </td>
-      </tr>
+  <td style="border-bottom: 1px solid black;background-color: #f1f1f1;">
+    <table>
+        <tr>
+          <td style="padding: 5px; font-family: 'FieldworkGeoDemibold';">
+            <p>Office days and hours (complete all days, using N/A if not available): </p>
+          </td>
+        </tr>
     </table>
   </td>
 </tr>
@@ -661,11 +574,133 @@
 
 
 <tr>
-  <td>
-    <table style=" border: 1px solid black;">
-      <tr style="height: 30px;">
+  <td style="border-bottom: 1px solid black;background-color: #f1f1f1; ">
+      <table>
+          <tr>
+              <td style="border-right: 1px solid black; text-align: center; width: 14%;">
+                
+                  <table>
+                      <tr>
+                          <td style="padding: 5px;">
+                            Sunday
+                            <p style="min-height:20px;"></p>
+                          </td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="border-right: 1px solid black; text-align: center; width: 14.5%;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px;">
+                            Monday
+                            <p style="min-height:20px;"></p>
+                          </td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="border-right: 1px solid black; text-align: center; width: 14.5%;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px;">
+                            Tuesday
+                            <p style="min-height:20px;"></p>
+                          </td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="border-right: 1px solid black; text-align: center; width: 14.5%;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px;">
+                            Wednesday
+                            <p style="min-height:20px;"></p>
+                          </td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="border-right: 1px solid black; text-align: center; width: 14.5%;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px;">
+                            Thursday
+                            <p style="min-height:20px;"></p>
+                          </td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="border-right: 1px solid black; text-align: center; width: 15%;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px;">
+                            Friday
+                            <p style="min-height:20px;"></p>
+                          </td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="text-align: center; width: 14%;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px;">
+                            Saturday
+                            <p style="min-height:20px;"></p>
+                          </td>
+                      </tr>
+                  </table>
+              </td>
+          </tr>
+      </table>
+  </td>
+</tr>
+
+
+
+
+<tr>
+  <td style="border-bottom: 1px solid black;">
+      <table >
+          <tr>
+              <td style="width: 100%;">
+                  <table>
+                      <td style="padding: 5px;">
+                          Qualified medical interpreter:
+                          <span><input type="checkbox">Cantonese</span>
+                          <span><input type="checkbox"><span style="font-family: 'Arial';">K</span>orean</span>
+                          <span><input type="checkbox">Mandarin</span>
+                          <span><input type="checkbox">Russian</span>
+                          <span><input type="checkbox">Spanish</span>
+                          <span><input type="checkbox">Vietnamese</span>
+                      </td>
+                  </table>
+              </td>
+          </tr>
+      </table>
+  </td>
+</tr>
+
+
+<tr>
+  <td style="border-bottom: 1px solid black;">
+      <table>
+          <tr>
+              <td style="padding: 5px;">
+                <p>Non-roster member languages:</p>
+                <p style="min-height:30px"></p>
+              </td>
+          </tr>
+      </table>
+  </td>
+</tr>
+
+
+
+
+<tr>
+  <td  style="border-bottom: 1px solid black;background-color: #f1f1f1;">
+    <table >
+      <tr >
         <td style="padding: 5px;">
-<h3>Handicap accessible (all that apply):</h3>
+          <h3>Handicap accessible (all that apply):</h3>
         </td>
       </tr>
     </table>
@@ -676,11 +711,11 @@
 
 
 <tr>
-  <td>
+  <td style="border-bottom: 1px solid black;">
     <table>
       <tr>
-        <td style="width:25%;">
-          <table style="border: 1px solid black; border-collapse: collapse;">
+        <td style="width: 25%;border-right: 1px solid #111;">
+          <table>
             <tr>
               <td style="padding: 5px;">
                 <input type="checkbox">
@@ -689,8 +724,8 @@
             </tr>
           </table>
         </td>
-        <td style="width: 25%;">
-          <table style="border: 1px solid black; border-collapse: collapse;">
+        <td style="width: 25%;border-right: 1px solid #111;">
+          <table>
             <tr>
               <td style="padding: 5px;">
                 <input type="checkbox">
@@ -699,8 +734,8 @@
             </tr>
           </table>
         </td>
-        <td style="width: 25%;">
-          <table style="border: 1px solid black; border-collapse: collapse;">
+        <td style="width: 25%;border-right: 1px solid #111;">
+          <table>
             <tr>
               <td style="padding: 5px;">
                 <input type="checkbox">
@@ -711,7 +746,7 @@
         </td>
 
         <td style="width: 25%;">
-          <table style="border: 1px solid black; border-collapse: collapse;">
+          <table>
             <tr>
               <td style="padding: 5px;">
                 <input type="checkbox">
@@ -726,11 +761,11 @@
 </tr>
 
 <tr>
-  <td>
+  <td style="border-bottom: 1px solid black;">
     <table>
       <tr>
-        <td style="width:25%;">
-          <table style="border: 1px solid black; border-collapse: collapse;">
+        <td style="width: 25%;border-right: 1px solid #111;">
+          <table>
             <tr>
               <td style="padding: 5px;">
                 <input type="checkbox">
@@ -739,8 +774,8 @@
             </tr>
           </table>
         </td>
-        <td style="width: 25%;">
-          <table style="border: 1px solid black; border-collapse: collapse;">
+        <td style="width: 25%;border-right: 1px solid #111;">
+          <table>
             <tr>
               <td style="padding: 5px;">
                 <input type="checkbox">
@@ -750,7 +785,7 @@
           </table>
         </td>
         <td style="width:50%;">
-          <table style="border: 1px solid black; border-collapse: collapse;">
+          <table>
             <tr>
               <td style="padding: 5px;">
                 <input type="checkbox">
@@ -766,8 +801,8 @@
 
 
 <tr>
-  <td>
-    <table style="border: 1px solid black;">
+  <td style="border: 1px solid black;background-color: #f1f1f1;">
+    <table >
       <tr>
         <td style="padding: 5px;">
           <h3>Billing information</h3>
@@ -781,24 +816,61 @@
 
 <tr>
   <td>
-    <table style="border-collapse: collapse;">
-      <tr style="height: 25px;">
-        <td style="border: 1px solid black; text-align: center; width: 50%;"> <table> <tr> <td style="padding: 5px; text-align: left;"><p>Address (if different from service location):</p></td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-        <td style="border: 1px solid black; text-align: center;  width: 25%;"> <table> <tr> <td style="padding: 5px; text-align: left;"><p>City:</p> </td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-        <td style="border: 1px solid black; text-align: center; width: 10%;"> <table> <tr> <td style="padding: 5px; text-align: left;"> <p>State:</p> </td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-        <td style="border: 1px solid black; text-align: center; width: 15%;"> <table> <tr> <td style="padding: 5px; text-align: left;"> <p>ZIP code:</p></td></tr> <tr style="height: 35px;"><td style="padding: 5px;"><p></p></td></tr></table></td>
-      </tr>
-    </table>
+      <table>
+          <tr style="height: 25px;">
+              <td style="border: 1px solid black; text-align: center; width: 50%;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px; text-align: left;"><p>Address (if different from service location):</p></td>
+                      </tr>
+                      <tr style="height: 35px;">
+                          <td style="padding: 5px;"><p></p></td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="border: 1px solid black; text-align: center; width: 25%;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px; text-align: left;"><p>City:</p></td>
+                      </tr>
+                      <tr style="height: 35px;">
+                          <td style="padding: 5px;"><p></p></td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="border: 1px solid black; text-align: center; width: 10%;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px; text-align: left;"><p>State:</p></td>
+                      </tr>
+                      <tr style="height: 35px;">
+                          <td style="padding: 5px;"><p></p></td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="border: 1px solid black; text-align: center; width: 15%;">
+                  <table>
+                      <tr>
+                          <td style="padding: 5px; text-align: left;"><p>ZIP code:</p></td>
+                      </tr>
+                      <tr style="height: 35px;">
+                          <td style="padding: 5px;"><p></p></td>
+                      </tr>
+                  </table>
+              </td>
+          </tr>
+      </table>
   </td>
 </tr>
 
 
+
 <tr>
   <td>
-      <table style="width: 1px solid black; border-collapse: collapse;">
+      <table >
           <tr>
               <td style="width: 33%;">
-                  <table style="border: 1px solid black; border-collapse: collapse;">
+                  <table style="border: 1px solid black;">
                       <tr>
                           <td style="padding: 5px;">Phone:</td>
                           <td style="padding: 5px;"><p></p></td>
@@ -806,7 +878,7 @@
                   </table>
               </td>
               <td style="width: 33%;">
-                <table style="border: 1px solid black; border-collapse: collapse;">
+                <table style="border: 1px solid black;">
                   <tr>
                       <td style="padding: 5px;">Fax:</td>
                       <td style="padding: 5px;"><p></p></td>
@@ -821,7 +893,7 @@
 
 <tr>
   <td>
-    <table style="border-collapse: collapse;">
+    <table >
       <tr style="width: 8px;">
         <td style="border: 1px solid black ; padding: 5px;">
           <h3>Paperless remittance advice (replaces paper <span style="font-family:'Arial-medium' ; font-size: 15px;">E</span>OB)</h3>
@@ -855,7 +927,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 <tr>
   <td>
-    <table style="border-collapse: collapse;">
+    <table >
       <tr style="width: 8px;">
         <td style="border: 1px solid black ; padding: 5px;">
           <span>   <h3><span style="font-family:'Arial'; font-size: 14px;">E</span>RA election: <span style="font-style: italic;">Select and document only one.</span> The third-party vendor/clearinghouse documented below is authorized to receive 
@@ -1026,15 +1098,15 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
       that service location can be added using a copy of this template.</h4>
 
 
-<table style="border-collapse: collapse; margin-top:10px; margin-bottom: 0;">
+<table style= margin-top:10px; margin-bottom: 0;">
 
   <tr>
     <td>
-      <table style="border-collapse: collapse;">
+      <table >
         <tr>
           <!-- table 1 -->
           <td style="width: 50%; border: 1px solid black">
-            <table style="border-collapse: collapse;">
+            <table >
               <tr>
                 <td>
                   <!-- main heading table -->
@@ -1042,14 +1114,14 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
                   <!-- row 2 -->
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
                   <!-- row 3 -->
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
 
@@ -1058,7 +1130,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   </table>
 
                   <!-- row 4 -->
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1071,7 +1143,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     </tr>
                   </table>
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1084,7 +1156,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     </tr>
                   </table>
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1098,14 +1170,14 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   </table>
 
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1120,7 +1192,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
                   
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
                     </tr>
@@ -1140,7 +1212,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                  
                   
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1155,7 +1227,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   </table>
 
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1173,11 +1245,11 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   <!-- table in table (two table) -->
                    <tr>
                     <td>
-                      <table style="border-collapse: collapse;">
+                      <table >
                         <tr  style="height: 134px;">
                           <!-- table1 -->
                           <td style="width: 60%; border: 1px solid black;">
-                            <table style="border-collapse: collapse;">
+                            <table >
                               <tr>
                                 <td >
                                   <p style="margin-top: 0px; margin-left: 5px;">Patient acceptance:</p>
@@ -1186,13 +1258,13 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                                 </td>
                             </table>
 
-                            <table style="border-collapse: collapse;">
+                            <table >
                               <tr>
                                 <td>
-                                  <table style="border-collapse: collapse;">
+                                  <table >
                                     <tr>
                                       <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
-                                        <table style="border-collapse: collapse;">
+                                        <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Lowest age:</td>
                                             <td style="width: 70%; padding: 5px;"><p></p></td>
@@ -1205,13 +1277,13 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                               </tr>
                             </table>
 
-                            <table style="border-collapse: collapse;">
+                            <table >
                               <tr>
                                 <td>
-                                  <table style="border-collapse: collapse;">
+                                  <table >
                                     <tr>
                                       <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
-                                        <table style="border-collapse: collapse;">
+                                        <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Highest age:</td>
                                             <td style="width: 70%; padding: 5px;"><p></p></td>
@@ -1261,14 +1333,14 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
                    <!-- row 2 -->
-                   <table style="border-collapse: collapse;">
+                   <table >
                      <tr>
                        <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                      </tr>
                    </table>
  
                    <!-- row 3 -->
-                   <table style="border-collapse: collapse;">
+                   <table >
                      <tr>
                        <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
  
@@ -1277,7 +1349,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                    </table>
 
                     <!-- row 4 -->
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1290,7 +1362,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     </tr>
                   </table>
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1303,7 +1375,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     </tr>
                   </table>
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1317,14 +1389,14 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   </table>
 
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1339,7 +1411,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
                   
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
                     </tr>
@@ -1359,7 +1431,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                  
                   
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1374,7 +1446,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   </table>
 
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1390,11 +1462,11 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                    <!-- table in table (two table) -->
                    <tr>
                     <td>
-                      <table style="border-collapse: collapse;">
+                      <table >
                         <tr  style="height: 134px;">
                           <!-- table1 -->
                           <td style="width: 60%; border: 1px solid black;">
-                            <table style="border-collapse: collapse;">
+                            <table >
                               <tr>
                                 <td >
                                   <p style="margin-top: 0px; margin-left: 5px;">Patient acceptance:</p>
@@ -1403,13 +1475,13 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                                 </td>
                             </table>
 
-                            <table style="border-collapse: collapse;">
+                            <table >
                               <tr>
                                 <td>
-                                  <table style="border-collapse: collapse;">
+                                  <table >
                                     <tr>
                                       <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
-                                        <table style="border-collapse: collapse;">
+                                        <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Lowest age:</td>
                                             <td style="width: 70%; padding: 5px;"><p></p></td>
@@ -1422,13 +1494,13 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                               </tr>
                             </table>
 
-                            <table style="border-collapse: collapse;">
+                            <table >
                               <tr>
                                 <td>
-                                  <table style="border-collapse: collapse;">
+                                  <table >
                                     <tr>
                                       <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
-                                        <table style="border-collapse: collapse;">
+                                        <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Highest age:</td>
                                             <td style="width: 70%; padding: 5px;"><p></p></td>
@@ -1473,15 +1545,15 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 <!-- bottom 2 table (identical) -->
 
-<table style="border-collapse: collapse; margin-top:0px; border-top: 0px;">
+<table style= margin-top:0px; border-top: 0px;">
 
   <tr>
     <td>
-      <table style="border-collapse: collapse;">
+      <table >
         <tr>
           <!-- table 1 -->
           <td style="width: 50%; border: 1px solid black ; border-top: 0px;">
-            <table style="border-collapse: collapse;">
+            <table >
               <tr>
                 <td>
                   <!-- main heading table -->
@@ -1489,14 +1561,14 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
                   <!-- row 2 -->
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
                   <!-- row 3 -->
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
 
@@ -1505,7 +1577,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   </table>
 
                   <!-- row 4 -->
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1518,7 +1590,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     </tr>
                   </table>
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1531,7 +1603,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     </tr>
                   </table>
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1545,14 +1617,14 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   </table>
 
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1567,7 +1639,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
                   
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
                     </tr>
@@ -1587,7 +1659,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                  
                   
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1602,7 +1674,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   </table>
 
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1620,11 +1692,11 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   <!-- table in table (two table) -->
                    <tr>
                     <td>
-                      <table style="border-collapse: collapse;">
+                      <table >
                         <tr  style="height: 134px;">
                           <!-- table1 -->
                           <td style="width: 60%; border: 1px solid black;">
-                            <table style="border-collapse: collapse;">
+                            <table >
                               <tr>
                                 <td >
                                   <p style="margin-top: 0px; margin-left: 5px;">Patient acceptance:</p>
@@ -1633,13 +1705,13 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                                 </td>
                             </table>
 
-                            <table style="border-collapse: collapse;">
+                            <table >
                               <tr>
                                 <td>
-                                  <table style="border-collapse: collapse;">
+                                  <table >
                                     <tr>
                                       <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
-                                        <table style="border-collapse: collapse;">
+                                        <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Lowest age:</td>
                                             <td style="width: 70%; padding: 5px;"><p></p></td>
@@ -1652,13 +1724,13 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                               </tr>
                             </table>
 
-                            <table style="border-collapse: collapse;">
+                            <table >
                               <tr>
                                 <td>
-                                  <table style="border-collapse: collapse;">
+                                  <table >
                                     <tr>
                                       <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
-                                        <table style="border-collapse: collapse;">
+                                        <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Highest age:</td>
                                             <td style="width: 70%; padding: 5px;"><p></p></td>
@@ -1708,14 +1780,14 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
                    <!-- row 2 -->
-                   <table style="border-collapse: collapse;">
+                   <table >
                      <tr>
                        <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Licensed practitioner’s name:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                      </tr>
                    </table>
  
                    <!-- row 3 -->
-                   <table style="border-collapse: collapse;">
+                   <table >
                      <tr>
                        <td style="border: 1px solid black; text-align: center; width: 80%;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Title:</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
  
@@ -1724,7 +1796,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                    </table>
 
                     <!-- row 4 -->
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1737,7 +1809,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     </tr>
                   </table>
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1750,7 +1822,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                     </tr>
                   </table>
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1764,14 +1836,14 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   </table>
 
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Supervising physician’s name (if applicable):</p></td></tr> <tr style="height: 20px;"><td><p></p></td></tr></table></td>
                     </tr>
                   </table>
 
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1786,7 +1858,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
 
 
                   
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black; text-align: center;"> <table> <tr> <td style="text-align: left; padding: 5px;"> <p>Hospital affiliation name(s) (for MD or DO):</p></td></tr> <tr style="height: 35px;"><td><p></p></td></tr></table></td>
                     </tr>
@@ -1806,7 +1878,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                  
                   
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1821,7 +1893,7 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                   </table>
 
 
-                  <table style="border-collapse: collapse;">
+                  <table >
                     <tr>
                       <td style="border: 1px solid black;">
                         <table>
@@ -1837,11 +1909,11 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                    <!-- table in table (two table) -->
                    <tr>
                     <td>
-                      <table style="border-collapse: collapse;">
+                      <table >
                         <tr  style="height: 134px;">
                           <!-- table1 -->
                           <td style="width: 60%; border: 1px solid black;">
-                            <table style="border-collapse: collapse;">
+                            <table >
                               <tr>
                                 <td >
                                   <p style="margin-top: 0px; margin-left: 5px;">Patient acceptance:</p>
@@ -1850,13 +1922,13 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                                 </td>
                             </table>
 
-                            <table style="border-collapse: collapse;">
+                            <table >
                               <tr>
                                 <td>
-                                  <table style="border-collapse: collapse;">
+                                  <table >
                                     <tr>
                                       <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
-                                        <table style="border-collapse: collapse;">
+                                        <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Lowest age:</td>
                                             <td style="width: 70%; padding: 5px;"><p></p></td>
@@ -1869,13 +1941,13 @@ as the 835). Paper Explanation of Benefits will be discontinued at the time of e
                               </tr>
                             </table>
 
-                            <table style="border-collapse: collapse;">
+                            <table >
                               <tr>
                                 <td>
-                                  <table style="border-collapse: collapse;">
+                                  <table >
                                     <tr>
                                       <td style="border: 2px solid black;  border-bottom: 0px; border-left: 0px; border-right:0px;">
-                                        <table style="border-collapse: collapse;">
+                                        <table >
                                           <tr>
                                             <td style="width: 30%; padding: 5px;">Highest age:</td>
                                             <td style="width: 70%; padding: 5px;"><p></p></td>
